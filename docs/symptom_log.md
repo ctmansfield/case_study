@@ -1,3 +1,18 @@
+## Session 2 – Quick answers (fill briefly; month/year OK)
+
+- Typical episode (bullet the sequence: **early warnings → peak → recovery**):
+- Average episode **duration** and **recovery time**:
+- **Frequency** (per week/month; clusters that co-occur):
+- **Severity** (0–10) at peak for:
+  - Cognitive loss:
+  - Uncoordination/injury risk:
+  - Anxiety/irritability:
+  - Sleep disruption:
+  - Fasting glucose spike (baseline vs spike):
+- **Triggers** besides stress (if any):
+- **Alleviating** factors that reliably help:
+- Notable **after-effects** the next day:
+
 # Symptom Log (Clustered)
 
 | Cluster | Symptom Details | Onset Pattern | Frequency | Duration | Severity (0–10) | Triggers | Alleviating Factors | After-effects | Notes |
