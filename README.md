@@ -1,35 +1,39 @@
-# 🧠 Personal Medical Case Study (Private Repository)
+# Medical Case Study (Private Repo)
 
-This repository contains a **structured, de-identified medical case study** designed to help clinicians, specialists, and collaborators understand the full scope of my symptoms, history, and clinical course.
+This repository holds a living, clinician‑facing case study with full history, timeline, and supporting materials.
+It is designed for incremental work across multiple sessions with your assistant.
 
-It is intended as a living record built in collaboration with ChatGPT (GPT-5), organized across multiple working sessions with explicit structure and traceability.
-
----
-
-## 🩺 Purpose
-
-The goal of this project is to:
-- Maintain a **chronological and system-based record** of symptoms and events.  
-- Provide doctors with a **complete, coherent overview** of my history and adverse drug reactions.  
-- Ensure **nothing important is omitted** by following a guided, multi-session workflow.
-
----
-
-## 📁 Repository Layout
-
+## Layout
+```
 medical_case_study/
-├── README.md # This file
+├── README.md
 ├── docs/
-│ ├── case_study_outline.md # Master skeleton (Session 1)
-│ ├── symptom_log.md # Symptom clusters (Session 2)
-│ ├── medication_history.md # Adverse drug reactions (Session 4)
-│ ├── system_review.md # Review of systems (Session 5)
-│ ├── timeline.md # Chronological mapping (Session 3)
-│ └── physician_brief.md # Final summary for doctors (Session 6)
+│   ├── case_study_outline.md
+│   ├── symptom_log.md
+│   ├── medication_history.md
+│   ├── system_review.md
+│   ├── timeline.md
+│   └── physician_brief.md
 ├── data/
-│ ├── lab_results/ # Lab reports, imaging, etc.
-│ ├── notes_raw/ # Journaling or unstructured logs
-│ └── exports/ # Rendered PDFs/DOCX reports
+│   ├── lab_results/
+│   ├── notes_raw/
+│   └── exports/
 └── meta/
-├── session_plan.md # Step-by-step session roadmap
-└── version_log.md # Change log across sessions
+    ├── version_log.md
+    └── session_plan.md
+```
+## Working model
+
+- We update a specific file per session (see `meta/session_plan.md`).
+- Commit with clear messages (e.g., `feat(symptoms): add stress‑event cluster details`).
+- Use `meta/version_log.md` to record a human‑readable changelog for clinicians.
+
+## Build (optional)
+
+If you have Pandoc installed, you can generate a unified PDF/Docx from Markdown:
+
+```bash
+./tools/generate.sh pdf   # or: docx
+```
+
+If you prefer GitHub to build automatically, enable the included workflow in `.github/workflows/export.yml`.

@@ -1,0 +1,23 @@
+name: Export Case Study
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'docs/**'
+      - 'tools/generate.sh'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+      - name: Build PDF
+        run: bash tools/generate.sh pdf || true
+      - name: Build DOCX
+        run: bash tools/generate.sh docx || true
+      - name: Upload exports
+        uses: actions/upload-artifact@v4
+        with:
+          name: exports
+          path: data/exports/*
