@@ -10,3 +10,4 @@
 - 2025-11-08 — added mechanisms.md (MCAS/histamine–folate), cross-linked outline, extended mechanistic_map.
 - 2025-11-08 — added Session 3 physiologic & lab tracking scaffolds, linked from outline
 - 2025-11-08 — appended creatine/methylation burden mechanism; updated mechanistic_map with MCAS impact
+- 2025-11-08 — added clonidine mechanism with literature anchors; extended mechanistic_map for sympathetic dampening

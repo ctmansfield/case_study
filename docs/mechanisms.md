@@ -85,3 +85,24 @@ By lowering methylation strain, creatine likely:
 - Brosnan JT et al., *FASEB J* 2011 25: 2650-2663 – Review of methyl balance and creatine supplementation.  
 - Deth R & Muratore C, *Transl Psychiatry* 2020 10: 141 – Linking methylation efficiency to neuro-immune modulation.
 
+
+---
+
+### Addendum — Clonidine (central α2-adrenergic agonist) & Stress/Mast-Cell Axis
+
+**Core mechanism:** Clonidine stimulates **central presynaptic α2 autoreceptors** in brainstem/hypothalamic circuits → **reduces sympathetic outflow and norepinephrine release**, lowering heart rate and blood pressure and blunting adrenergic “surge” physiology.  
+**Clinical relevance here:** Dampening sympathetic drive reduces the **adrenergic amplification** of flares (anxiety/hyperarousal, BP spikes, tremor), which secondarily **lowers neurogenic inputs** that can prime **mast cells** during stress.
+
+**Why this likely helps this patient**
+- **Sympathetic brake:** ↓NE tone → fewer **BP spikes** and less limbic hyperarousal → improved clarity and safety during episodes.  
+- **Neuroimmune crosstalk:** Stress activates mast cells via neuropeptides and catecholaminergic pathways; reducing sympathetic traffic should **lower mast-cell priming** and downstream histamine-mediated symptoms (insomnia, photophobia, edema) when combined with H1/H2/DAO strategy.  
+- **Cognitive/working memory:** α2 agonists can improve working memory in stress states via prefrontal network stabilization (dose-dependent).
+
+**Selected references (mechanism & context)**
+- **Central α2 agonism / ↓sympathetic outflow:** StatPearls (Clonidine), Goodman-style summaries and clinical physiology reviews.  
+- **α2 agonists overview:** Giovannitti et al., review of α2 agonists.  
+- **Stress → mast cell activation & nerve–MC crosstalk:** Theoharides (stress and mast cells), van der Kleij (mast cell–nerve interactions), Levick (SNS–inflammation links).  
+- **Sympatholytic physiology & cognition:** Muzi (cold-pressor attenuation), Franowicz (working memory with α2 agonists).
+
+> See also: `docs/medication_effects.md` (clonidine row) and `docs/mechanistic_map.md`.
+
