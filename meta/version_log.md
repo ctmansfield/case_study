@@ -6,3 +6,4 @@
 - 2025-11-08 — **Session 2 filled:** added patient-reported episode patterns, triggers, durations, progressive severity, alleviators, and day-after effects to symptom_log.
 - 2025-11-08 — added Session 2 HPI and Day-after effects to physician_brief.md
 - 2025-11-08 — logged Session 2 event in timeline.md (pattern characterization, triggers, alleviators, after-effects)
+- 2025-11-08 — added MCAS/folate sensitivity addendum (symptom_log, physician_brief, timeline)

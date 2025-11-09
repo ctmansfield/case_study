@@ -18,3 +18,7 @@
 **Cross-refs:**  
 ↳ [`docs/symptom_log.md`](./symptom_log.md) — detailed table  
 ↳ [`docs/physician_brief.md`](./physician_brief.md) — clinical HPI insert  
+
+### 2025-11-08 — Addendum: MCAS-Pattern Correlation
+Patient observed complete reproduction of flare profile after high-histamine meals or high folate intake.  
+→ Added note of likely **MCAS axis involvement** and **histamine–folate sensitivity** for future evaluation and tracking.

@@ -36,3 +36,8 @@
 | Endocrine / Metabolic | Fasting glucose spikes | Testosterone, SAMe, Probiotics, HMB | Rebalances anabolic/catabolic tone; ↓cortisol; ↑insulin sensitivity |
 | Autonomic / Histamine Axis | BP spikes, flushing, agitation | Clonidine, DAO, Famotidine, Hydroxyzine | ↓sympathetic outflow + histamine degradation/blockade |
 
+
+### Session 2 Addendum – MCAS Link (2025-11-08)
+Patient notes that **flares mirror Mast Cell Activation Syndrome (MCAS)** patterns exactly.  
+Symptoms reproducible with **high-histamine foods** or **excess folate** intake, producing identical cascades of hyperarousal, cognitive fog, and post-episode exhaustion.  
+→ Confirms **mast-cell / histamine-driven amplification** of existing adrenergic and metabolic responses.

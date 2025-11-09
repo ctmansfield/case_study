@@ -62,3 +62,7 @@ Patient with stress-triggered episodes characterized by loss of cognitive functi
 - Mechanistic Map (`docs/mechanistic_map.md`)  
 - Timeline (`docs/timeline.md`)
 
+
+### Exacerbants
+Episodes reliably triggered by **high-histamine foods** or **excess folate**, producing identical symptom clusters to stress-induced flares.  
+Findings consistent with **mast-cell activation overlap**; responsive to **H1/H2 blockade** and **DAO enzyme support**.
