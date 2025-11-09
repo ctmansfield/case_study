@@ -14,6 +14,7 @@ out="$OUTDIR/case_study_handout_${datecode}${SHORT:+_short}.pdf"
 inputs=()
 for f in \
   docs/clinician_checklist.md \
+  docs/genetics.md \
   docs/physician_brief.md \
   data/analytics/correlations.md \
   docs/medication_effects.md

@@ -23,3 +23,4 @@
 - 2025-11-08 — add tagged-release workflow to build & publish sharepack
 - 2025-11-08 — add VA email aggregation (symptoms + tone); integrate into symptom_log & timeline; removed 'Session' labels; add BG<110 headache; add spironolactone bad reaction.
 - 2025-11-08 — add genetic_findings with E2/catechol clearance variants; link from outline & brief; finalize spironolactone=adverse and quetiapine note; strip session labels.
+- 2025-11-08 — integrate genetics into all build outputs (docs + exporters)

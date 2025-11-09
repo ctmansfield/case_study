@@ -8,3 +8,9 @@ These variants together predispose to **higher circulating estradiol**, **greate
 
 For details, see: `docs/genetics.md`.
 
+
+---
+
+## Genetics
+Variants indicate **slower estrogen clearance** (CYP3A4*22 ± CYP3A5*3) and **reduced Phase II conjugation** (UGT1A1*28, SULT1E1 var) with **COMT Val158Met** influencing catechol handling.  
+See `docs/genetics.md` for tables and interpretation.

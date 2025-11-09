@@ -74,3 +74,9 @@ Clearance pattern consistent with **COMT-Met**, **UGT1A1*28 tag**, **CYP3A4*22/C
 - **COMT Val158Met** → lower catechol methylation capacity during stress; aligns with adrenergic/hyperarousal amplification.
 - **Management hooks:** gentle aromatase control; avoid high histamine/folate spikes; leverage creatine (methylation-sparing) strategy; use clonidine/H1/H2/DAO per clinical judgment.
 
+
+---
+
+## Genetics
+Variants indicate **slower estrogen clearance** (CYP3A4*22 ± CYP3A5*3) and **reduced Phase II conjugation** (UGT1A1*28, SULT1E1 var) with **COMT Val158Met** influencing catechol handling.  
+See `docs/genetics.md` for tables and interpretation.

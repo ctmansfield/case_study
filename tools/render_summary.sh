@@ -9,6 +9,7 @@ datecode="$(date +%Y%m%d)"
 out="$OUTDIR/case_study_summary_${datecode}.pdf"
 
 inputs=()
+inputs+=(docs/genetics.md)
 for f in \
   docs/case_study_outline.md \
   docs/physician_brief.md \
