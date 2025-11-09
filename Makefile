@@ -42,3 +42,24 @@ sharepack: export summary handout short
 	@zip -j "$(ZIP)" "$(MAIN)" "$(SUMMARY)" "$(HANDOUT)" "$(SHORT)" >/dev/null 2>&1 || true
 	@ls -lh "$(ZIP)" || true
 	@echo "→ Sharepack ready: $(ZIP)"
+
+# Build the main PDF (already supported by tools/generate.sh)
+export:
+	./tools/generate.sh pdf || true
+
+# Build clinician summary (genetics included by your updated renderer)
+summary:
+	./tools/render_summary.sh || true
+
+# Build handout (short variant included by flag)
+handout:
+	./tools/render_handout.sh || true
+
+short:
+	./tools/render_handout.sh --short || true
+
+# Build full Genetics Appendix PDF from variant_index.csv
+genetics_appendix:
+	./tools/render_genetics_appendix.sh || true
+
+appendix: genetics_appendix

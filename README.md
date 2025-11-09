@@ -48,3 +48,5 @@ If you prefer GitHub to build automatically, enable the included workflow in `.g
 
 - Genetics (clinician): `docs/genetic_findings.md`
 - Genetics (plain language): `docs/genetics_lay.md`
+
+- **Genetics Appendix (full index)**: produced by `make genetics_appendix` → `data/exports/case_study_genetics_appendix_YYYYMMDD.pdf`
