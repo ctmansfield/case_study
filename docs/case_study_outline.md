@@ -63,6 +63,7 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
 - Milestones summary: **TBD**
 
 ## 9. Assessment & Plan (working)
+- See `docs/mechanisms.md` for MCAS/histamine–folate mechanisms.
 - Problem list: **TBD**
 - Differential considerations: **TBD**
 - Requests for clinician / next steps: **TBD**
