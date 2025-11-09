@@ -1,8 +1,8 @@
 # Genetics Appendix (Full Variant Index)
 
-> Source: `data/genetics/variant_index.csv`. Grouped by **GENE**. Long tables optimized for PDF.
+> Source: `data/genetics/variant_index.csv`. Grouped by **GENE**. AF cutoff for highlight: < 0.005.
 
-_Auto-highlights_: **⚠** rows with (ClinVar Pathogenic/LP) or (impact HIGH/MODERATE) or (gnomAD AF < 0.001).
+_Auto-highlights_: **⚠** ClinVar Pathogenic/LP **or** impact HIGH/MODERATE **or** relevant consequence **or** gnomAD AF below cutoff.
 
 ---
 

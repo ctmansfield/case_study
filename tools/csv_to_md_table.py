@@ -5,25 +5,25 @@ from collections import defaultdict
 SRC = sys.argv[1] if len(sys.argv) > 1 else "data/genetics/variant_index.csv"
 OUT = "data/analytics/genetics_appendix.md"
 
-def colfind(row, names):
-    for n in names:
-        for k in row.keys():
-            if k.lower()==n.lower():
-                return k
-    return None
+AF_CUTOFF = 0.005  # <- adjusted per user
 
-def get(row, *names):
-    for n in names:
-        for k in row.keys():
-            if k.lower()==n.lower():
-                return row.get(k,"").strip()
+# Consequences we want to treat as relevant (case-insensitive substring match)
+RELEVANT_CONSEQUENCES = {
+    "stop_gained","nonsense","frameshift","splice_acceptor","splice_donor","splice_region",
+    "missense","start_lost","inframe_insertion","inframe_deletion","inframe_variant",
+    "regulatory_region","promoter","5_prime_utr","3_prime_utr","mature_miRNA","TF_binding_site",
+    "coding_sequence_variant","protein_altering_variant"
+}
+
+def colget(row, name):
+    for k in row.keys():
+        if k.lower()==name.lower():
+            return row[k].strip()
     return ""
 
 def to_float(s):
-    try:
-        return float(s)
-    except:
-        return None
+    try: return float(s)
+    except: return None
 
 if not os.path.exists(SRC):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
@@ -47,68 +47,64 @@ for row in rows:
 preferred = ["gene","rsid","chrom","pos","ref","alt","hgvs","zygosity",
              "variant","effect","impact","consequence","clinvar","gnomad_af",
              "source","note","notes"]
-ordered = [h for h in preferred if h in headers] + [h for h in headers if h not in preferred]
-headers = ordered
+headers = [h for h in preferred if h in headers] + [h for h in headers if h not in preferred]
 
-# Group by gene (case-insensitive)
+# Group by gene
 groups = defaultdict(list)
 for row in rows:
-    gene = get(row, "gene") or "UNKNOWN"
+    gene = colget(row,"gene") or "UNKNOWN"
     groups[gene.upper()].append(row)
 
-# Score "width" of a gene group to pick top-3 for landscape:
 def row_width_score(row):
-    # length of HGVS + notes + number of non-empty columns
-    w = len(get(row,"hgvs")) + len(get(row,"note","notes"))
+    w = len(colget(row,"hgvs")) + len(colget(row,"note") or colget(row,"notes"))
     nonempty = sum(1 for h in headers if row.get(h,""))
     return w + 20*nonempty
 
 gene_scores = {g: statistics.mean([row_width_score(r) for r in rs]) for g,rs in groups.items()}
 landscape_genes = set(sorted(gene_scores, key=gene_scores.get, reverse=True)[:3])
 
-# Helpers for highlighting
 def is_pathogenic(s):
     s = (s or "").lower()
-    return ("pathogenic" in s and "not" not in s) or "likely pathogenic" in s or "lp" == s.strip()
+    return ("pathogenic" in s and "not" not in s) or ("likely pathogenic" in s)
 
-def is_high_impact(s):
-    s = (s or "").lower()
-    return s in {"high","moderate"} or "frameshift" in s or "stop_gained" in s or "splice" in s
+def is_high_impact(impact, consequence):
+    imp = (impact or "").lower()
+    if imp in {"high","moderate"}:
+        return True
+    cons = (consequence or "").lower()
+    return any(key in cons for key in RELEVANT_CONSEQUENCES)
 
-def is_rare_af(s):
-    v = to_float(s)
-    return v is not None and v < 0.001
+def is_rare_af(af):
+    v = to_float(af)
+    return v is not None and v < AF_CUTOFF
 
-def style_cell(text, highlight=False):
-    # Use bold + symbol in both HTML (wkhtml) and LaTeX engines
-    if highlight:
-        return f"**⚠ {text}**"
-    return text
+def highlight(row):
+    return is_pathogenic(colget(row,"clinvar")) or \
+           is_high_impact(colget(row,"impact"), colget(row,"consequence")) or \
+           is_rare_af(colget(row,"gnomad_af") or colget(row,"gnomad"))
+
+def style_cell(text, hl=False):
+    return f"**⚠ {text}**" if hl else text
 
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 with open(OUT,"w",encoding="utf-8") as f:
     f.write("# Genetics Appendix (Full Variant Index)\n\n")
-    f.write("> Source: `data/genetics/variant_index.csv`. Grouped by **GENE**. Long tables optimized for PDF.\n\n")
-    f.write("_Auto-highlights_: **⚠** rows with (ClinVar Pathogenic/LP) or (impact HIGH/MODERATE) or (gnomAD AF < 0.001).\n\n")
+    f.write(f"> Source: `data/genetics/variant_index.csv`. Grouped by **GENE**. AF cutoff for highlight: < {AF_CUTOFF}.\n\n")
+    f.write("_Auto-highlights_: **⚠** ClinVar Pathogenic/LP **or** impact HIGH/MODERATE **or** relevant consequence **or** gnomAD AF below cutoff.\n\n")
     f.write("---\n\n")
-    # Global font tweak (LaTeX path)
     f.write("<div style=\"font-size: 90%\">\n\n")
 
     for gene in sorted(groups.keys(), key=lambda s: (s=="UNKNOWN", s)):
-        # Landscape switch for wide genes (LaTeX engines)
-        landscape_open = gene in landscape_genes
-        if landscape_open:
+        if gene in landscape_genes:
             f.write("\\begin{landscape}\n\n")
         f.write(f"## {gene}\n\n")
         f.write("| " + " | ".join(h.replace('|','/') for h in headers) + " |\n")
         f.write("|" + "|".join(["---"]*len(headers)) + "|\n")
-
         for row in groups[gene]:
-            hl = is_pathogenic(get(row,"clinvar")) or is_high_impact(get(row,"impact","consequence")) or is_rare_af(get(row,"gnomad_af","gnomad"))
+            hl = highlight(row)
             vals=[]
             for h in headers:
                 v = row.get(h,"")
-                # trim very long fields but keep <details> for HTML; for LaTeX it'll just show short
                 if h.lower() in ("hgvs","note","notes") and len(v) > 140:
                     short = v[:130].rstrip() + "…"
                     cell = f"{short}<br/><details><summary>more</summary>{v}</details>"
@@ -117,7 +113,7 @@ with open(OUT,"w",encoding="utf-8") as f:
                 vals.append(style_cell(cell.replace('\n',' ').replace('|','/'), hl))
             f.write("| " + " | ".join(vals) + " |\n")
         f.write("\n")
-        if landscape_open:
+        if gene in landscape_genes:
             f.write("\\end{landscape}\n\n")
         f.write("\\clearpage\n\n")
     f.write("</div>\n")
