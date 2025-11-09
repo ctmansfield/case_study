@@ -48,3 +48,9 @@
 *Cross-refs:*  
 ↳ `docs/mechanisms.md` (MCAS axis)  
 ↳ `docs/symptom_log.md` (episode clusters)
+
+### Quick Analysis
+- Append daily rows to **`data/tracking/physio.csv`** with columns:
+  - `date,context,histamine_score(1–5),folate_level(0=low,1=mod,2=high),sbp,dbp,hr,fasting_glucose,sleep_deficit_hours,notes`
+- Run: `python3 tools/track_corr.py`  
+- See results: **`data/analytics/correlations.md`** (Pearson r for key pairs).
