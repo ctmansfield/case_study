@@ -1,3 +1,6 @@
+---
+title: "Case Study Outline"
+---
 # Case Study Outline
 
 > **Privacy:** Private medical record draft. De-identify where possible. Month/year granularity is OK.
