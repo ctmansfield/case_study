@@ -106,3 +106,43 @@ By lowering methylation strain, creatine likely:
 
 > See also: `docs/medication_effects.md` (clonidine row) and `docs/mechanistic_map.md`.
 
+
+---
+
+### Addendum — Hydroxyzine (H1 ± 5-HT2A Antagonist) and Sleep/Anxiety Modulation
+
+**Core mechanism:** Competitive **H1** antagonism with additional **5-HT2A** and mild anticholinergic effects → reduced cortical arousal, anti-pruritic and anti-emetic actions; clinically sedating and anxiolytic.
+
+**Relevance here:**  
+- **Sleep architecture:** H1 blockade reduces nocturnal awakenings and sensory hypervigilance → improves **restorative sleep** during histamine-driven flares.  
+- **Anxiety/irritability:** 5-HT2A antagonism blunts ruminative/anxious circuits that are amplified by histamine and catecholamines.  
+- **MCAS overlap:** Directly **opposes histamine signaling** that worsens insomnia, photophobia, edema.
+
+**Selected references (overview/clinical):** standard pharmacology texts (e.g., Goodman & Gilman), prescribing information, and reviews on H1 antagonists for anxiety/insomnia.
+
+---
+
+### Addendum — Famotidine (H2 Antagonist) and Nocturnal/Autonomic Stability
+
+**Core mechanism:** Selective **H2** receptor antagonism → reduced gastric acid secretion; extra-GI **H2 blockade** decreases histamine-mediated vasodilation/tachycardia.
+
+**Relevance here:**  
+- **Nighttime stability:** Lower histamine tone at **H2** may reduce **nocturnal arousals** and autonomic variability.  
+- **Autonomic surges:** By limiting histamine’s cardiac/vascular effects, helps dampen **BP spikes** and agitation alongside H1 control.  
+- **Synergy:** Complements H1 antagonism (hydroxyzine) and **DAO** to lower total histamine burden.
+
+**Selected references:** H2 antagonist pharmacology and clinical reviews addressing extra-gastric histamine effects.
+
+---
+
+### Addendum — DAO (Diamine Oxidase) Enzymes and Dietary Histamine Load
+
+**Core mechanism:** Oral **DAO** supplements increase luminal degradation of **exogenous (dietary) histamine** before absorption.
+
+**Relevance here:**  
+- **Trigger prevention:** When flares reproduce with **high-histamine foods**, DAO reduces absorbed histamine, preventing **MCAS-like cascades**.  
+- **Sleep/anxiety:** Lower systemic histamine → fewer nighttime awakenings and less adrenergic co-activation.  
+- **Stacking:** Works upstream of H1/H2 blockade; timing **with meals** is key.
+
+**Selected references:** reviews on food-derived histamine intolerance, DAO activity, and symptom reduction with DAO supplementation.
+
