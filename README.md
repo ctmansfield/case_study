@@ -42,3 +42,6 @@ If you prefer GitHub to build automatically, enable the included workflow in `.g
 - Normal: `./tools/render_handout.sh` → `data/exports/case_study_handout_YYYYMMDD.pdf`  
 - **Short (1–2 pages):** `./tools/render_handout.sh --short` → `..._short.pdf`  
   Includes **Checklist + Physician Brief + trimmed Analytics** with compact layout.
+
+### Changelog
+- Auto-generated from session changes: [`CHANGELOG.md`](CHANGELOG.md)

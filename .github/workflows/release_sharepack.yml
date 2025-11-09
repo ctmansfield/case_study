@@ -2,10 +2,10 @@ name: Release Sharepack
 on:
   push:
     tags:
-      - 'v*'   # run when pushing tags like v0.1.0, v1.0.0, etc.
+      - 'v*'
 
 permissions:
-  contents: write   # needed to create a GitHub Release
+  contents: write
 
 jobs:
   build-release:
@@ -21,11 +21,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc wkhtmltopdf zip make python3
 
-      # Build the PDFs and the sharepack ZIP using your Makefile/renderer scripts
       - name: Build exports
         run: |
           make export summary handout short || true
           make sharepack
+
+      - name: Generate CHANGELOG
+        run: |
+          python3 tools/gen_changelog.py
+          test -s CHANGELOG.md && head -n 60 CHANGELOG.md || true
 
       - name: Capture paths
         id: paths
@@ -41,6 +45,7 @@ jobs:
         with:
           draft: false
           prerelease: false
+          body_path: CHANGELOG.md
           files: |
             ${{ env.ZIP }}
             ${{ env.SUMMARY }}
