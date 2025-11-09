@@ -1,35 +1,24 @@
 #!/usr/bin/env bash
-fmt="${1:-pdf}"
-out="data/exports/case_study_$(date +%Y%m%d).${fmt}"
-inputs=(
-  docs/case_study_outline.md
-  docs/symptom_log.md
-  docs/medication_history.md
-  docs/system_review.md
-  docs/timeline.md
-  docs/physician_brief.md
-)
+# Usage: ./tools/generate.sh pdf [INPUT_MD]
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"; ROOT="$(cd "$DIR/.." && pwd)"
+OUTDIR="$ROOT/data/exports"; mkdir -p "$OUTDIR"
 
-have() { command -v "$1" >/dev/null 2>&1; }
+# shellcheck source=tools/pandoc_common.sh
+. "$ROOT/tools/pandoc_common.sh"
 
-if ! have pandoc; then
-  echo "Pandoc not found. Install pandoc or export manually."
-  exit 1
+cmd="${1:-}"
+input="${2:-docs/case_study_outline.md}"
+
+if [ "$cmd" != "pdf" ]; then
+  echo "Usage: $0 pdf [input.md]"; exit 1
 fi
 
-if [ "$fmt" = "pdf" ]; then
-  engine=""
-  if have xelatex; then engine="--pdf-engine=xelatex"; 
-  elif have pdflatex; then engine="--pdf-engine=pdflatex";
-  elif have wkhtmltopdf; then engine="--pdf-engine=wkhtmltopdf";
-  else
-    echo "No LaTeX engine or wkhtmltopdf found; falling back to DOCX."
-    fmt="docx"
-    out="data/exports/case_study_$(date +%Y%m%d).${fmt}"
-  fi
-  pandoc "${inputs[@]}" $engine -o "$out" || exit $?
-else
-  pandoc "${inputs[@]}" -o "$out" || exit $?
-fi
+datecode="$(date +%Y%m%d)"
+out="$OUTDIR/case_study_${datecode}.pdf"
+
+pandoc "$input" \
+  "${PANDOC_COMMON_OPTS[@]}" \
+  -o "$out"
 
 echo "Wrote $out"

@@ -1,36 +1,33 @@
 #!/usr/bin/env bash
-out="data/exports/case_study_summary_$(date +%Y%m%d).pdf"
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"; ROOT="$(cd "$DIR/.." && pwd)"
+OUTDIR="$ROOT/data/exports"; mkdir -p "$OUTDIR"
 
-inputs=(
-  docs/summary_cover.md
-  docs/case_study_outline.md
-  docs/physician_brief.md
-  docs/symptom_log.md
-  docs/mechanisms.md
-  docs/mechanisms_neuroimmune.md
-  docs/mechanistic_map.md
-  docs/physio_tracking.md
-  docs/lab_tracking.md
+. "$ROOT/tools/pandoc_common.sh"
+
+datecode="$(date +%Y%m%d)"
+out="$OUTDIR/case_study_summary_${datecode}.pdf"
+
+inputs=()
+for f in \
+  docs/case_study_outline.md \
+  docs/physician_brief.md \
+  docs/symptom_log.md \
+  docs/mechanistic_map.md \
+  docs/mechanisms.md \
+  docs/mechanisms_neuroimmune.md \
+  docs/allergies_intolerances.md \
+  docs/lab_panels.md \
+  docs/emergency_firstlook.md \
   data/analytics/correlations.md
-)
+do
+  [ -f "$ROOT/$f" ] && inputs+=("$ROOT/$f")
+done
 
-existing=()
-for f in "${inputs[@]}"; do [ -f "$f" ] && existing+=("$f"); done
-[ ${#existing[@]} -eq 0 ] && { echo "No inputs found; aborting." >&2; exit 1; }
-
-engine=()
-if command -v wkhtmltopdf >/dev/null 2>&1; then
-  engine=(--pdf-engine=wkhtmltopdf)
-elif command -v xelatex >/dev/null 2>&1; then
-  engine=(--pdf-engine=xelatex)
-fi
-
-pandoc "${existing[@]}" \
-  --from=markdown+table_captions+yaml_metadata_block \
-  --toc --toc-depth=3 \
+# Render
+pandoc "${inputs[@]}" \
+  "${PANDOC_COMMON_OPTS[@]}" \
   --metadata title="Case Study — Integrated Summary" \
-  "${engine[@]}" \
-  -o "$out" || exit $?
+  -o "$out"
 
 echo "Wrote $out"
-ls -lh "$out"
