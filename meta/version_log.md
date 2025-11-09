@@ -16,3 +16,4 @@
 - 2025-11-08 — Session 5: added neuroimmune–endocrine mechanism synthesis doc
 - 2025-11-08 — integrity fixes; add summary cover & Session 6 renderer
 - 2025-11-08 — Session 8: add medication_effects.md and link from outline
+- 2025-11-08 — add README quick links & repo map; add clinician_checklist and link from outline
