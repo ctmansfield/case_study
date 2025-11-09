@@ -38,3 +38,7 @@
 | **Metformin** | Ineffective | BG spikes appear stress-driven |
 
 *Cross-refs:* `docs/medication_history.md`, `docs/mechanisms.md`, `docs/mechanistic_map.md`.
+
+| Drug / Class | Mechanism | Observed Effect in Patient | Disposition |
+|---|---|---|---|
+| **Spironolactone** (MRA) | Mineralocorticoid receptor antagonism; anti-androgenic | **Bad reaction** (details to fill: BP/volume, mood, endocrine effects) | **Avoid** (document specifics on re-challenge history) |

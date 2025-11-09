@@ -51,3 +51,15 @@ Symptoms reproducible with **high-histamine foods** or **excess folate** intake,
 - **Day-after effects:** fatigue, cognitive fog, sleep debt, injuries.
 - **Functional impact:** safety incidents, ADLs, work.
 - **Notes for clinician:** what to rule in/out; labs to consider.
+
+### Email-derived additions (2020–2023)
+
+| Cluster | Symptom Details | Onset Pattern | Frequency | Duration | Severity (0–10) | Triggers | Alleviating Factors | After-effects | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| Sleep/Autonomic | **Nocturnal dysregulation** → “horrible night,” oversleep | Night peaks during flares | Episodic | Hours→1–2 days | 6–8 | Stressors, histamine load | H1/H2 blockade, DAO, clonidine, sleep hygiene | Daytime hypersomnia, cognitive fog | **Email-derived: Nocturnal dysregulation (2023-02-15)** |
+| Neuropsychiatric | **Hyperarousal with remorse post-episode** | Peaks around stress/conflict, resolves over days | Episodic | Days | 7–9 at peak | Antagonistic encounters, adrenergic stimuli | Clonidine, breathing, de-escalation | Insightful remorse, fatigue | **Email-derived: Apology integration (2023-02-09)** |
+| Medication sensitivity | **Serotonergic toxicity history** (duloxetine) and **gabapentin-induced personality change** | During exposure | While on med | Variable | severe | Serotonergic load | Med discontinuation per clinician | Prolonged recovery | **Email-derived: 2022-09-26/29** |
+| Safety (historical) | Suicidality during serotonergic toxicity | At peak toxicity | Rare | Acute | high | Serotonergic load | Remove offending agents; supportive care | Trauma residue, insomnia | **Email-derived** (bridge reference) |
+
+### Patient-reported threshold phenomena
+- **Headache when fasting or ambient BG < 110 mg/dL** → consider autonomic counter-regulatory response and cortical sensitivity; track in `docs/physio_tracking.md` and `data/tracking/physio.csv`.

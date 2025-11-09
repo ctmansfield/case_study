@@ -21,3 +21,12 @@
 ### 2025-11-08 — Addendum: MCAS-Pattern Correlation
 Patient observed complete reproduction of flare profile after high-histamine meals or high folate intake.  
 → Added note of likely **MCAS axis involvement** and **histamine–folate sensitivity** for future evaluation and tracking.
+
+#### 2023-02-15 — Overslept after severe night
+Nocturnal dysregulation → missed appointment; consistent with flare carryover.
+
+#### 2023-02-09 — Post-episode remorse/insight
+Apology email reflects preserved insight post-flare; supports pattern of adrenergic/histamine surges with reflective recovery.
+
+#### 2022-09-26 to 2022-09-29 — Iatrogenic exacerbation (duloxetine/gabapentin)
+Self-report consistent with serotonergic toxicity and gabapentin adverse behavioral effects; suicidality occurred during peak iatrogenic state.
