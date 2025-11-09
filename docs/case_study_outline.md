@@ -43,6 +43,7 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
   - **Antidepressants (unspecified class):** **uncontrollable/strange behavior** → discontinued; **avoid**
 - Tolerated agents / non-drug strategies: **TBD**
 - See `docs/medication_history.md` for full table.
+- See `docs/medication_effects.md` for **beneficial agents + mechanisms**.
 
 ## 6. Review of Systems (ROS) — see `docs/system_review.md`
 - **Neurologic:** cognitive impairment, coordination issues — **TBD**

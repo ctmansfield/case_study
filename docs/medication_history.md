@@ -1,3 +1,5 @@
+> **Also see:**  for medications/supplements that **help**, with mechanistic rationale.
+
 # Medication & Adverse Reaction Log
 
 > Include dose, route, start/stop dates, indication, exact reaction, severity, and clinician response.
