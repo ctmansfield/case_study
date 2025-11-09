@@ -1,0 +1,24 @@
+total: 62
+clinvar: 0
+impact: 0
+consequence: 0
+af: 0
+predictor_and_af: 0
+
+Columns seen (union):
+- alt
+- chrom
+- clinvar
+- consequence
+- effect
+- gene
+- gnomad_af
+- hgvs
+- impact
+- note
+- pos
+- ref
+- rsid
+- source
+- variant
+- zygosity
