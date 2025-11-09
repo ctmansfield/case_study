@@ -14,3 +14,4 @@
 - 2025-11-08 — added hydroxyzine/famotidine/DAO mechanisms; extended mechanistic_map with H1/H2 blockade and DAO rows
 - 2025-11-08 — added refs/ with clonidine, creatine–methylation, and histamine-axis citations; linked from mechanisms.md
 - 2025-11-08 — Session 5: added neuroimmune–endocrine mechanism synthesis doc
+- 2025-11-08 — integrity fixes; add summary cover & Session 6 renderer
