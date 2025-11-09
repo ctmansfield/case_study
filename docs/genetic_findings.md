@@ -1,40 +1,34 @@
-# Genetic Findings — Metabolism, Clearance, and Stress Axis (Working)
+# Genetics – Estrogen Handling, Methylation & Neuro-Adrenergic Modulation
 
-> Purpose: summarize variants tied to estrogen/catechol clearance, stress response, and bioenergetics that plausibly modulate this case. This is a clinical working document, not diagnostic.
+> **Use:** Clinical framing, not destiny. Phenoconversion (illness, sleep loss, diet, meds) can outweigh genotype.
+> **Actionables:** Track free E2/T with SHBG; interpret alongside thyroid & liver markers.
 
-## A. Estrogen Metabolism & Clearance (patient-supplied panel)
-
-| Gene | Variant | Functional Effect | Expected Outcome |
+## A. Key variants (patient-reported / scan-confirmed)
+| Pathway | Gene / Variant | Typical functional effect | Expected clinical direction |
 |---|---|---|---|
-| **COMT rs4680 (Val158Met)** | Met allele | ↓ methylation of catechol estrogens & catecholamines | Slower catechol clearance → ↑ oxidative load; ↑ anxiety/insomnia sensitivity under catechol buildup |
-| **CYP1A2 rs762551 (*1F*)** | Inducible | Faster 2-hydroxylation of E2 (protective route) **if induced** (e.g., caffeine) | Route effectiveness drops with hepatic load or low methyl donors |
-| **CYP3A4 rs35599367 (*22*)** | Decreased expression | Slower hepatic E2 clearance | ↑ circulating E2; slower adaptation to TRT changes |
-| **CYP3A5 rs776746 (*3*)** | Non-expressor | Shifts oxidative load to CYP3A4 | Accentuates *22* effect on E2 clearance |
-| **UGT1A1 rs887829** | Tags *28 low-activity allele | ↓ glucuronidation | Impaired E2 conjugation/clearance; can mimic mild Gilbert’s pattern |
-| **SULT1E1 rs3736599** | Promoter variant | ↓ estrogen sulfation (probable) | Prolongs active estrogen half-life |
-| **SULT2A1 rs2637125** | Research variant | Alters DHEA sulfation | Aligns with low DHEAS labs |
-| **SHBG rs6259 / rs12150660 / rs1799941** | ↑ SHBG alleles | Higher SHBG | ↓ free T/E2; ↑ measured totals; sensitive to thyroid/liver status |
+| Catechol & catechol-estrogen methylation | **COMT rs4680 (Val158Met, Met allele)** | Lower thermal stability/activity → slower methylation of catechols | ↑ catechol “noise” under stress; adrenergic amplification; anxiety/insomnia risk |
+| Phase I alternate hydroxylation | **CYP1A2 rs762551 (*1F context)** | Alters inducibility; context-dependent | If low/phenoconverted: slower aryl/xanthine metabolism; sleep/stress interactions |
+| Hepatic estrogen clearance | **CYP3A4*22 (rs35599367)** | ↓ 3A4 expression/activity | Slower E2 clearance; higher exposure at same aromatase rate |
+| Hepatic estrogen clearance (redundancy) | **CYP3A5*3 (rs776746) non-expressor** | Loss of 3A5; shifts burden to 3A4 | Accentuates *22 effect (more load on 3A4) |
+| Glucuronidation of bilirubin/E2 metabolites | **UGT1A1*28 (rs887829 tag)** | ↓ expression → reduced glucuronidation | Slower E2 metabolite clearance; ↑ unconjugated bilirubin tendency (Gilbert-like) |
+| Estradiol sulfation | **SULT1E1 rs3736599 (promoter)** | Reported ↓ expression in some cohorts | Prolonged active E2 half-life when sulfation low |
+| DHEA sulfation | **SULT2A1 rs2637125** | Research variant | May lower DHEA-S; aligns with low DHEAS labs |
+| Binding pool | **SHBG rs6259/rs12150660/rs1799941** | Common alleles shift SHBG levels | Alters free vs total T/E2; interacts with thyroid & liver status |
 
-### Interpretation (clinical)
-Pattern suggests **slow phase II conjugation** (COMT-Met, UGT1A1*28, SULT1E1) plus **reduced CYP3A4/5 clearance**, favoring **estradiol accumulation** and **catechol buildup**. Explains sensitivity to **aromatase balance**, need for **careful anastrozole titration**, and symptom escalation when **E2 > ~40 pg/mL**. This dovetails with mast-cell/adrenergic susceptibility and methylation burden documented elsewhere.
+**Integrated interpretation:** Pattern favors slower Phase II (COMT-Met, UGT1A1*28, SULT1E1 var) plus reduced CYP3A throughput (CYP3A4*22 with CYP3A5*3) ⇒ tendency toward higher circulating E2 and catechol buildup under stress → explains sensitivity to estradiol excursions and benefit from careful anastrozole titration.
 
-## B. Global Priority Variants (selected, from patient scans)
-*(Curated from uploaded priority hit tables; details retained in repo history.)*
+## B. Practical hooks
+- Keep **free E2** in lower-physiologic band; titrate **anastrozole** cautiously to avoid oversuppression.  
+- Monitor **SHBG** and compute free hormones after dose changes.  
+- Support **Phase II** conjugation nutritionally; avoid large **folate spikes** that can perturb methyl flux in this phenotype.  
+- Maintain **creatine** (methyl-sparing) and **methyl-B/SAMe** balance to aid COMT/HNMT function.
+- Given adrenergic sensitivity (COMT-Met), maintain **sympatholytic reserve** (e.g., clonidine per clinician).
 
-| Gene | rsID | Genotype | Pathway | Putative Effect | Clinical Note |
-|---|---|---|---|---|---|
-| **COMT** | rs4680 | Met | Catechol methylation | ↓ activity | Catechol estrogen & catecholamine clearance slower |
-| **UGT1A1** | rs887829 (*28 tag*) | — | Glucuronidation | ↓ conjugation | ↑ unconjugated bilirubin risk; slower E2 clearance |
-| **CYP3A4** | rs35599367 (*22*) | — | Oxidation | ↓ expression | Slower hepatic clearance of many substrates incl. E2 |
-| **CYP3A5** | rs776746 (*3*) | — | Oxidation | Non-expressor | Shifts load to CYP3A4 → compounds *22* |
-| **SULT1E1** | rs3736599 | — | Sulfation | ↓ activity (promoter) | Prolongs active estrogen |
-| **SULT2A1** | rs2637125 | — | DHEA sulfation | Altered | Matches low DHEAS trend |
-| **SHBG** | rs6259/rs12150660/rs1799941 | ↑ | Carrier protein | ↑ SHBG | Lowers free T/E2 fraction |
+## C. Mitochondrial/“alcoholic-pattern” labs (context)
+Macrocytosis, AST>ALT with normal GGT, low ALP/phosphate, and low PLP (B6) have been observed historically, consistent with oxidative stress and **functional B6 deficiency**—can worsen catechol/monoamine handling and fatigue. Tie-in with methylation and histamine loads appears clinically relevant.
 
-> **Provisional clinical implications:** Maintain methyl donors (B6/PLP, B12, folate balance, SAMe); support conjugation (glycine/taurine/NAC); monitor **E2, SHBG, DHEAS, liver enzymes** under TRT/AI adjustments; avoid drugs that further impair 3A4/UGT function when possible.
+## D. Variant index (data)
+A merged, deduplicated variant table should live at: `data/genetics/variant_index.csv` with columns: gene, rsid, zygosity, effect, note, source.
 
-## C. Linkage to observed physiology
-- Estrogen/catechol clearance drag → **hyperarousal**, **migraine/light sensitivity**, **sleep fragmentation** under stress.
-- Conjugation bottlenecks + histamine axis → **MCAS-like** flares; improved by **DAO + H1/H2**.
-- Methylation load → aligns with benefit from **creatine** and **methyl-B complex**.
-
+## E. References
+See `refs/clonidine.md`, `refs/creatine_methylation.md`, `refs/histamine_axis.md` and add estrogen-genetics items in `refs/estrogen_genetics.md`.

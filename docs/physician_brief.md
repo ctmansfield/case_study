@@ -80,3 +80,7 @@ Clearance pattern consistent with **COMT-Met**, **UGT1A1*28 tag**, **CYP3A4*22/C
 ## Genetics
 Variants indicate **slower estrogen clearance** (CYP3A4*22 ± CYP3A5*3) and **reduced Phase II conjugation** (UGT1A1*28, SULT1E1 var) with **COMT Val158Met** influencing catechol handling.  
 See `docs/genetics.md` for tables and interpretation.
+
+Genetics (summary)
+:  Clearance pattern consistent with **COMT-Met**, **UGT1A1*28**, **CYP3A4*22/3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors estrogen/catechol persistence.  
+  *Implication:* gentle aromatase control, avoid large folate spikes, maintain methyl-sparing (creatine) & methyl-B support; use sympatholysis per clinical judgment. See `docs/genetic_findings.md`.

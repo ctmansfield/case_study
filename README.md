@@ -45,3 +45,6 @@ If you prefer GitHub to build automatically, enable the included workflow in `.g
 
 ### Changelog
 - Auto-generated from session changes: [`CHANGELOG.md`](CHANGELOG.md)
+
+- Genetics (clinician): `docs/genetic_findings.md`
+- Genetics (plain language): `docs/genetics_lay.md`

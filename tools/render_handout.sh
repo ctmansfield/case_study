@@ -15,7 +15,7 @@ inputs=()
 for f in \
   docs/clinician_checklist.md \
   docs/genetics.md \
-  docs/physician_brief.md \
+  docs/physician_brief.md docs/genetics_lay.md \
   data/analytics/correlations.md \
   docs/medication_effects.md
 do

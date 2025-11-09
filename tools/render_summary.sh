@@ -12,7 +12,7 @@ inputs=()
 inputs+=(docs/genetics.md)
 for f in \
   docs/case_study_outline.md \
-  docs/physician_brief.md \
+  docs/physician_brief.md docs/genetics_lay.md \
   docs/symptom_log.md \
   docs/mechanistic_map.md \
   docs/mechanisms.md \
