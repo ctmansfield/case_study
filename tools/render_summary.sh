@@ -1,34 +1,27 @@
 #!/usr/bin/env bash
 set -e
-DIR="$(cd "$(dirname "$0")" && pwd)"; ROOT="$(cd "$DIR/.." && pwd)"
-OUTDIR="$ROOT/data/exports"; mkdir -p "$OUTDIR"
-
-. "$ROOT/tools/pandoc_common.sh"
-
-datecode="$(date +%Y%m%d)"
-out="$OUTDIR/case_study_summary_${datecode}.pdf"
+OUT="data/exports/case_study_summary_$(date +%Y%m%d).pdf"
 
 inputs=()
-inputs+=(docs/genetics.md)
 for f in \
-  docs/case_study_outline.md \
-  docs/physician_brief.md docs/genetics_lay.md \
-  docs/symptom_log.md \
-  docs/mechanistic_map.md \
-  docs/mechanisms.md \
-  docs/mechanisms_neuroimmune.md \
-  docs/allergies_intolerances.md \
-  docs/lab_panels.md \
-  docs/emergency_firstlook.md \
-  data/analytics/correlations.md
+  docs/genetic_findings.md \
+  docs/physician_brief.md \
+  docs/case_study_outline.md
 do
-  [ -f "$ROOT/$f" ] && inputs+=("$ROOT/$f")
+  [ -f "$f" ] && inputs+=("$f")
 done
+[ ${#inputs[@]} -eq 0 ] && { echo "No inputs for summary"; exit 1; }
 
-# Render
+engine=()
+if command -v wkhtmltopdf >/dev/null 2>&1; then engine=(--pdf-engine=wkhtmltopdf)
+elif command -v xelatex >/dev/null 2>&1; then engine=(--pdf-engine=xelatex); fi
+
 pandoc "${inputs[@]}" \
-  "${PANDOC_COMMON_OPTS[@]}" \
-  --metadata title="Case Study — Integrated Summary" \
-  -o "$out"
+  --from=markdown+table_captions+yaml_metadata_block \
+  --metadata title="Case Study — Summary (with Genetics)" \
+  -V geometry:margin=0.7in \
+  "${engine[@]}" \
+  -o "$OUT"
 
-echo "Wrote $out"
+echo "Wrote $OUT"
+ls -lh "$OUT"
