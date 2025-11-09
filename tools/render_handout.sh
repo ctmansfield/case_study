@@ -3,7 +3,6 @@ set -e
 
 OUT="data/exports/case_study_handout_$(date +%Y%m%d).pdf"
 
-# choose inputs (skip if missing)
 inputs=()
 for f in \
   docs/clinician_checklist.md \
@@ -28,7 +27,6 @@ fi
 pandoc "${inputs[@]}" \
   --from=markdown+table_captions+yaml_metadata_block \
   --metadata title="Clinician Handout — Checklist • Brief • Analytics" \
-  --toc=false \
   -V geometry:margin=0.7in \
   "${engine[@]}" \
   -o "$OUT"
