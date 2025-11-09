@@ -1,19 +1,64 @@
-# Physician Brief (1–2 pages)
+## Session 2 – Episode & After-effects Update
+### Revised HPI Summary
+Episodes often **go unrecognized until they have already passed**, retrospectively marked by a mix of **wild blood-glucose spikes**, **migraine**, **lost sleep**, **agitation**, **hyperarousal**, **hypertension**, **post-operative foot swelling**, **mood swings**, **exhaustion/lethargy**, **light sensitivity**, **heightened smell**, **blunted senses**, **subjective cognitive “shutdown”**, **disconnection from surroundings**, **memory loss**, **loss of coordination**, **falls**, and **presyncope**.  
+Frequency tracks with **stress or adrenergic activation**, whether from acute surges or antagonistic social/physiologic triggers.  Duration scales with how long symptoms reinforce one another — sometimes **weeks to months**, and historically **years** on poorly-tolerated medications.  Severity **progressively worsens** with each flare, without full recovery of baseline cognition.
+
+### Alleviators
+**Clonidine**, proactive **H1/H2 blockade** (hydroxyzine + famotidine + DAO), **box breathing**, **light exercise**, **sauna/hot-tub use**, **strength training**, and **maintaining flat blood glucose** all blunt the cascade.
+
+### Day-after Effects
+Dependent on episode duration and feedback severity — typically **fatigue**, **lethargy**, **brain-fog**, and **metabolic drift** with residual autonomic lability.
+# Physician Brief
 
 ## Summary (HPI in brief)
-TBD
+Patient with stress-triggered episodes characterized by loss of cognitive function and memory lapses, physical uncoordination with increased injury risk, severe uncontrollable anxiety/irritability, transient blood pressure spikes, non-restorative sleep, and intermittently elevated fasting blood glucose. Episodes follow stress exposure and resolve variably, leaving next-day fatigue/fog (details below once quantified).
 
-## Problem List (Numbered)
-1. TBD
+## Problem List
+1) Stress-induced neurocognitive dysfunction (episodic cognitive shutdown, memory lapses)  
+2) Episodic motor discoordination with injury risk  
+3) Severe anxiety/irritability during flares; panic physiology  
+4) Autonomic surges with blood pressure spikes  
+5) Non-restorative sleep and daytime fatigue  
+6) Stress-linked fasting glucose elevation (metformin ineffective)  
+7) Multiple medication intolerances (see cautions)
 
-## Key Findings
-- Positive: TBD
-- Negative: TBD
+## Key Positives
+- Clear stress reactivity pattern with autonomic features (adrenergic + histaminergic signatures).
+- Beneficial agent pattern: α2-agonism, H1/H2 antagonism, endocrine re-equilibration, methylation support, ATP buffering, sedating 5-HT2A/CB1 modulation.
 
-## Medication Cautions
-- Opioids (incl. tramadol): severe reactions (avoid) — patient report
-- Gabapentin: severe personality changes (avoid) — patient report
-- Antidepressants (class unspecified): uncontrollable behavior (avoid) — patient report
+## Key Negatives / Intolerances
+- Opioids (incl. tramadol): very bad reactions.
+- Gabapentin: severe personality change.
+- SSRIs/SNRIs (lexapro, fluoxetine, venlafaxine, duloxetine), bupropion, lithium, benzos (Xanax), depakote, lamotrigine: paradoxical/behavioral activation or poor tolerability.
+- Common antihypertensives poorly tolerated (lisinopril, metoprolol, amlodipine).
 
-## Requests / Next Steps
-- Focused questions for clinician: TBD
+## Current Helpful Agents (with mechanistic rationale)
+- Testosterone ± anastrozole — endocrine/anabolic support; improves drive/energy; may steady cortisol/glucose balance.  
+- Clonidine — central α2 agonism; blunts sympathetic surges → fewer BP spikes/anxiety.  
+- Hydroxyzine, Famotidine, DAO enzymes — histamine axis control; improved sleep/anxiety.  
+- Quetiapine (Seroquel) — sedating 5-HT2A/H1 block; restores sleep architecture, reduces rumination.  
+- Creatine, HMB — energy buffering/anti-catabolic; improve resilience/coordination.  
+- Methylated B-complex, SAMe — monoamine synthesis/methylation support; improve clarity/mood.  
+- CBD/THC — CB1/CB2 modulation; anxiolysis/analgesia/sedation (CBD-dominant daytime).
+
+*(See `docs/medication_effects.md` for table and `docs/mechanistic_map.md` for pathways.)*
+
+## Testing/Workup Considerations
+- Autonomic: seated/standing BP/HR logs during episodes; consider ambulatory BP or HRV snapshot.  
+- Endocrine/Metabolic: fasting glucose/insulin/C-peptide around flares; AM cortisol if clinically indicated.  
+- Sleep: screen for insomnia/sleep fragmentation; consider actigraphy if symptoms persist.  
+- Histamine/Mast-cell phenotype: correlate diet/symptoms; trial documentation with DAO/H1/H2 timing.
+
+## Requests for Next Clinician Visit
+- Review contraindicated agents and adverse reactions; record as formal cautions.  
+- Discuss clonidine titration/PRN protocol for stress surges.  
+- Evaluate testosterone/estradiol targets and anastrozole dose to avoid low-E2.  
+- Align sleep plan (hydroxyzine vs quetiapine minimal effective dose; CBD/THC timing).  
+- Consider metabolic follow-up plan given metformin nonresponse (stress/HPA predominant).
+
+## Attachments / References
+- Symptom Log (`docs/symptom_log.md`)  
+- Medication Effects (`docs/medication_effects.md`)  
+- Mechanistic Map (`docs/mechanistic_map.md`)  
+- Timeline (`docs/timeline.md`)
+
