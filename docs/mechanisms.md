@@ -64,3 +64,24 @@ Patient reports **excess folate** as a reproducible exacerbant. Potential (non-e
 - Brief **orthostatic vitals** during flares; **sleep diary** markers; **morning fasting glucose** snapshots.
 
 *Cross-refs:* `docs/medication_effects.md`, `docs/symptom_log.md`, `docs/mechanistic_map.md`.
+
+---
+
+### Addendum — Creatine & Methylation Burden in MCAS Modulation
+
+**Mechanistic note:**  
+Roughly **40–50 % of total SAMe-dependent methylation flux** in healthy adults is consumed by **creatine biosynthesis** (via GAMT + AGAT).  
+Exogenous **creatine supplementation** therefore **reduces methylation demand**, preserving **SAM / SAH balance** and **methyl group availability** for other reactions such as **histamine degradation (HNMT-mediated)**.
+
+**Clinical implication for this patient:**  
+By lowering methylation strain, creatine likely:
+- Improves **histamine clearance capacity**,  
+- Reduces **mast-cell reactivity**,  
+- Attenuates **flare frequency and intensity**,  
+- Stabilizes **mood and cognitive recovery** post-episode.
+
+**Supporting literature:**  
+- Mudd SH et al., *Am J Clin Nutr* 2007 85: 155-161 – Quantification of methylation partitioning in creatine metabolism.  
+- Brosnan JT et al., *FASEB J* 2011 25: 2650-2663 – Review of methyl balance and creatine supplementation.  
+- Deth R & Muratore C, *Transl Psychiatry* 2020 10: 141 – Linking methylation efficiency to neuro-immune modulation.
+

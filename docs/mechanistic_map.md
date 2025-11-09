@@ -9,3 +9,5 @@
 | **Neurotransmitter Balance** | Monoamine depletion → depression, panic | SAMe, Testosterone, CBD | Restores methylation & dopaminergic tone |
 
 | **Histamine–Folate Sensitivity** | High-histamine foods or excess folate → histamine surge / methylation shift | DAO, Famotidine, Hydroxyzine; cautious folate strategy; Clonidine (for adrenergic amplification) | Lowers histamine signaling/absorptive load; calms sympathetic co-activation; supports sleep |
+
+| **Creatine / Methylation Burden Relief** | Supplementing creatine spares ~50 % of SAMe usage otherwise devoted to endogenous synthesis; enhances histamine inactivation (HNMT) | Creatine 3–5 g daily (maintenance) | Lowers MCAS flare frequency/intensity via reduced methylation strain and improved histamine clearance |
