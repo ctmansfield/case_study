@@ -1,0 +1,16 @@
+category,gene,rsid,found,genotype,note
+Estradiol metabolism/clearance,COMT,rs4680,Yes,GG,"COMT Val158Met (Met lowers COMT activity → higher catecholamines, slower E2 methylation)."
+Estradiol metabolism/clearance,UGT1A1,rs887829,Yes,CC,UGT1A1 *28 tag (reduced glucuronidation → slower E2 clearance).
+Estradiol metabolism/clearance,CYP1A2,rs762551,Yes,AA,CYP1A2 *1F (higher inducibility; affects E2 hydroxylation).
+Estradiol metabolism/clearance,CYP3A4,rs35599367,Yes,GG,CYP3A4*22 (reduced hepatic clearance of estrogens).
+Estradiol metabolism/clearance,CYP3A5,rs776746,Yes,CC,CYP3A5*3 (non-expressor; shifts clearance burden to CYP3A4).
+Estradiol metabolism/clearance,CYP19A1,rs10046,Yes,GG,CYP19A1 3′UTR variant (associated with E2 levels).
+Estradiol metabolism/clearance,CYP19A1,rs4646,Yes,AC,CYP19A1 intronic (aromatase regulation).
+Estradiol metabolism/clearance,CYP19A1,rs700519,Yes,AG,CYP19A1 Arg264Cys (reduced aromatase activity).
+Estradiol metabolism/clearance,CYP19A1,rs727479,Yes,AC,CYP19A1 intronic (strong LD with E2 variation).
+Estradiol metabolism/clearance,SHBG,rs6259,Yes,AG,"SHBG Asp327Asn (↑SHBG, ↓free E2)."
+Estradiol metabolism/clearance,SHBG,rs1799941,Yes,AG,SHBG promoter (↑SHBG).
+Estradiol metabolism/clearance,ESR2,rs1256049,Yes,CC,ESR2 coding (may alter ERβ function).
+Steroidogenesis / HPA,POR,rs1057868,Yes,CC,POR A503V (modulates CYP19A1/CYP17A1 electron transfer).
+Steroidogenesis / HPA,CYP17A1,rs743572,Yes,AA,CYP17A1 promoter (affects androgen precursor synthesis).
+Steroidogenesis / HPA,NR3C1,rs6198,Yes,TT,NR3C1 GRβ (GC resistance).

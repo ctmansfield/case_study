@@ -4,7 +4,14 @@ import csv, os
 SRC = "data/genetics/variant_index.csv"
 OUT = "data/analytics/genetics_top_hits.md"
 
-AF_CUTOFF = 0.005  # <- adjusted per user
+AF_CUTOFF = 0.005
+ALIASES_MAP = {
+  'clinvar': ['clinvar','clinvar_significance','clinvar_clinicalsignificance','clinical_significance'],
+  'gnomad_af': ['gnomad_af','gnomad','gnomad_exomes_af','gnomad_genomes_af','af','max_af','popmax_af'],
+  'consequence': ['consequence','consequence(s)','vep_consequence','so','so_terms'],
+  'impact': ['impact','vep_impact','impact_level']
+}
+  # <- adjusted per user
 RELEVANT_CONSEQUENCES = {
     "stop_gained","nonsense","frameshift","splice_acceptor","splice_donor","splice_region",
     "missense","start_lost","inframe_insertion","inframe_deletion","inframe_variant",
@@ -13,12 +20,29 @@ RELEVANT_CONSEQUENCES = {
 }
 
 def get(row, name):
+    names=[name]+ALIASES_MAP.get(name.lower(),[])
+    for n in names:
+        for k in row.keys():
+            if k.lower()==n.lower():
+                return (row[k] or '').strip()
+    return ''
+
     for k in row.keys():
         if k.lower()==name.lower():
             return row[k].strip()
     return ""
 
 def to_float(s):
+    try:
+        if s is None: return None
+        x = str(s).replace(',','').strip().rstrip('%')
+        v = float(x)
+        if str(s).strip().endswith('%'):
+            v = v/100.0
+        return v
+    except:
+        return None
+
     try: return float(s)
     except: return None
 

@@ -1,0 +1,40 @@
+category,gene_or_locus,rsid,found,genotype,risk_call,priority,note
+Methylation/One‑carbon,MTHFR C677T,rs1801133,Yes,AG,Heterozygous risk allele,high,C677T reduces MTHFR activity; AA ~30% function; folate-responsive homocysteine.
+Methylation/One‑carbon,MTHFR A1298C,rs1801131,Yes,TT,No risk allele detected,moderate,Milder activity drop; compound with C677T increases effect.
+Methylation/One‑carbon,MTRR A66G,rs1801394,Yes,GG,Homozygous risk alleles,moderate,MSR variant; B12-dependent homocysteine effects.
+Methylation/One‑carbon,MTR A2756G,rs1805087,Yes,AA,No risk allele detected,moderate,Methionine synthase variant; folate/B12 interactions.
+Methylation/One‑carbon,BHMT G742A,rs3733890,Yes,AG,Heterozygous risk allele,research,Betaine remethylation variant.
+Methylation/One‑carbon,TCN2 C776G,rs1801198,Yes,CC,No risk allele detected,moderate,Lower holo‑TC; B12 delivery differences.
+Catechol/Estrogen handling,COMT Val158Met,rs4680,Yes,GG,No risk allele detected,moderate,Lower COMT activity with Met.
+Catechol/Estrogen handling,COMT H62H,rs4633,Yes,CC,No risk allele detected,research,Haplotype marker.
+Xenobiotic/Estrogen hydroxylation,CYP1A2 *1F,rs762551,Yes,AA,Homozygous risk alleles,moderate,Inducible activity.
+Xenobiotic/Estrogen clearance,CYP3A4 *22,rs35599367,Yes,GG,No risk allele detected,moderate,Reduced expression.
+Xenobiotic/Estrogen clearance,CYP3A5 *3,rs776746,Yes,CC,Homozygous risk alleles,moderate,Non‑expresser.
+Glucuronidation,UGT1A1 *28 tag,rs887829,Yes,CC,No risk allele detected,high,Reduced glucuronidation of bilirubin/estrogens.
+Aromatase regulation,CYP19A1 3'UTR,rs10046,Yes,GG,No risk allele detected,research,Associated with E2 variation.
+Aromatase regulation,CYP19A1 intron,rs4646,Yes,AC,Heterozygous risk allele,research,Regulatory association.
+Aromatase coding,CYP19A1 Arg264Cys,rs700519,Yes,AG,No risk allele detected,moderate,Reduced activity in vitro.
+Aromatase regulation,CYP19A1 intron,rs727479,Yes,AC,Heterozygous risk allele,research,LD marker for E2 variation.
+P450 electron transfer,POR A503V,rs1057868,Yes,CC,No risk allele detected,moderate,Modulates CYP17A1/19A1 efficiency.
+Glucocorticoid receptor,NR3C1 GRβ,rs6198,Yes,TT,No risk allele detected,research,Relative GC resistance.
+Glucose/Diabetes risk,TCF7L2,rs7903146,Yes,CC,No risk allele detected,high,Strong T2D association; insulin secretion.
+PUFA metabolism,FADS1,rs174546,Yes,CT,Heterozygous risk allele,moderate,Affects LC‑PUFA synthesis.
+Glucose/Triglycerides,GCKR P446L,rs1260326,Yes,CT,Heterozygous risk allele,moderate,"↑ TG, ↓ fasting glucose."
+Insulin secretion,KCNJ11 E23K,rs5219,Yes,CT,Heterozygous risk allele,moderate,KATP channel variant.
+Adiposity,FTO,rs9939609,Yes,TT,No risk allele detected,moderate,Weight gain risk allele.
+Thrombosis,F5 Factor V Leiden,rs6025,Yes,CC,No risk allele detected,high,Venous thromboembolism risk.
+Thrombosis,F2 Prothrombin,rs1799963,Yes,GG,No risk allele detected,high,G20210A clot risk.
+Iron overload,HFE C282Y,rs1800562,Yes,GG,No risk allele detected,high,Hereditary hemochromatosis risk.
+Iron overload,HFE H63D,rs1799945,Yes,CC,No risk allele detected,moderate,Milder iron loading.
+Lipid/ApoE,APOE ε2 tag,rs7412,Yes,CC,No risk allele detected,high,Together with rs429358 defines APOE ε2/3/4.
+Inflammation,TNF‑α ‑308,rs1800629,Yes,AG,Heterozygous risk allele,research,Higher TNF expression.
+Detox/Antioxidants,GSTP1 Ile105Val,rs1695,Yes,AA,No risk allele detected,moderate,Reduced GSTP1 activity.
+Mitochondrial antioxidant,SOD2 Val16Ala,rs4880,Yes,AG,No risk allele detected,moderate,Alters mitochondrial import; ROS handling.
+Acetylation,NAT2*5,rs1801280,Yes,CC,No risk allele detected,moderate,Slow acetylator tag.
+Acetylation,NAT2*6,rs1799930,Yes,GG,No risk allele detected,moderate,Slow acetylator tag.
+Acetylation,NAT2*7,rs1799931,Yes,GG,No risk allele detected,moderate,Slow acetylator tag.
+Neuro/Reward,DRD2/ANKK1 Taq1A,rs1800497,Yes,GG,No risk allele detected,research,D2 receptor density marker.
+Opioid sensitivity,OPRM1 A118G,rs1799971,Yes,AG,Heterozygous risk allele,moderate,Analgesic response/nausea differences.
+Lactase persistence,LCT ‑13910 C/T,rs4988235,Yes,AG,No risk allele detected,moderate,T allele → lactase persistence.
+Celiac tag (HLA),HLA‑DQ2 tag,rs2187668,Yes,CC,No risk allele detected,moderate,DQ2 haplotype tag (proxy only).
+Celiac tag (HLA),HLA‑DQ8 tag,rs7454108,Yes,TT,No risk allele detected,moderate,DQ8 tag (proxy only).

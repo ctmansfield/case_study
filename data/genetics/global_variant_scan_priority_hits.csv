@@ -1,0 +1,9 @@
+category,gene_or_locus,rsid,found,genotype,risk_call,priority,note
+Methylation/One‑carbon,MTHFR C677T,rs1801133,Yes,AG,Heterozygous risk allele,high,C677T reduces MTHFR activity; AA ~30% function; folate-responsive homocysteine.
+Methylation/One‑carbon,MTRR A66G,rs1801394,Yes,GG,Homozygous risk alleles,moderate,MSR variant; B12-dependent homocysteine effects.
+Xenobiotic/Estrogen hydroxylation,CYP1A2 *1F,rs762551,Yes,AA,Homozygous risk alleles,moderate,Inducible activity.
+Xenobiotic/Estrogen clearance,CYP3A5 *3,rs776746,Yes,CC,Homozygous risk alleles,moderate,Non‑expresser.
+PUFA metabolism,FADS1,rs174546,Yes,CT,Heterozygous risk allele,moderate,Affects LC‑PUFA synthesis.
+Glucose/Triglycerides,GCKR P446L,rs1260326,Yes,CT,Heterozygous risk allele,moderate,"↑ TG, ↓ fasting glucose."
+Insulin secretion,KCNJ11 E23K,rs5219,Yes,CT,Heterozygous risk allele,moderate,KATP channel variant.
+Opioid sensitivity,OPRM1 A118G,rs1799971,Yes,AG,Heterozygous risk allele,moderate,Analgesic response/nausea differences.

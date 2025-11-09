@@ -16,6 +16,10 @@ RELEVANT_CONSEQUENCES = {
 }
 
 def colget(row, name):
+    # prefer alias-aware lookup if key is known
+    v = colget_alias(row, name)
+    if v!='': return v
+
     for k in row.keys():
         if k.lower()==name.lower():
             return row[k].strip()
@@ -43,6 +47,22 @@ for row in rows:
     for k in row.keys():
         if k not in seen:
             seen.add(k); headers.append(k)
+
+ALIASES_MAP = {
+  'clinvar': ['clinvar','clinvar_significance','clinvar_clinicalsignificance','clinical_significance','clinvar_s'],
+  'gnomad_af': ['gnomad_af','gnomad','gnomad_exomes_af','gnomad_genomes_af','af','max_af','popmax_af'],
+  'consequence': ['consequence','consequence(s)','vep_consequence','so','so_terms'],
+  'impact': ['impact','vep_impact','impact_level'],
+  'rsid': ['rsid','dbsnp','dbsnp_id','rs']
+}
+
+def colget_alias(row, key, fallback=None):
+    names=[key] + ALIASES_MAP.get(key.lower(), [])
+    for n in names:
+        for k in row.keys():
+            if k.lower()==n.lower():
+                return (row.get(k,'') or '').strip()
+    return fallback or ''
 
 preferred = ["gene","rsid","chrom","pos","ref","alt","hgvs","zygosity",
              "variant","effect","impact","consequence","clinvar","gnomad_af",

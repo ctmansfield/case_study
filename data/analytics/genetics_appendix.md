@@ -12,9 +12,9 @@ _Auto-highlights_: **⚠** ClinVar Pathogenic/LP **or** impact HIGH/MODERATE **o
 
 ## COMT
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| COMT | rs4680 | COMT Val158Met (Met lowers COMT activity → higher catecholamines, slower E2 methylation). | Estradiol metabolism/clearance | Yes |  | GG |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| COMT | rs4680 |  |  |  |  |  | GG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | COMT Val158Met (Met lowers COMT activity → higher catecholamines, slower E2 methylation). |
 
 \end{landscape}
 
@@ -22,77 +22,81 @@ _Auto-highlights_: **⚠** ClinVar Pathogenic/LP **or** impact HIGH/MODERATE **o
 
 ## CYP17A1
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| CYP17A1 | rs743572 | CYP17A1 promoter (affects androgen precursor synthesis). | Steroidogenesis / HPA | Yes |  | AA |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CYP17A1 | rs743572 |  |  |  |  |  | AA |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP17A1 promoter (affects androgen precursor synthesis). |
 
 \clearpage
 
 ## CYP19A1
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| CYP19A1 | rs10046 | CYP19A1 3′UTR variant (associated with E2 levels). | Estradiol metabolism/clearance | Yes |  | GG |  |  |
-| CYP19A1 | rs4646 | CYP19A1 intronic (aromatase regulation). | Estradiol metabolism/clearance | Yes |  | AC |  |  |
-| CYP19A1 | rs700519 | CYP19A1 Arg264Cys (reduced aromatase activity). | Estradiol metabolism/clearance | Yes |  | AG |  |  |
-| CYP19A1 | rs727479 | CYP19A1 intronic (strong LD with E2 variation). | Estradiol metabolism/clearance | Yes |  | AC |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CYP19A1 | rs10046 |  |  |  |  |  | GG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP19A1 3′UTR variant (associated with E2 levels). |
+| CYP19A1 | rs4646 |  |  |  |  |  | AC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP19A1 intronic (aromatase regulation). |
+| CYP19A1 | rs700519 |  |  |  |  |  | AG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP19A1 Arg264Cys (reduced aromatase activity). |
+| CYP19A1 | rs727479 |  |  |  |  |  | AC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP19A1 intronic (strong LD with E2 variation). |
 
 \clearpage
 
 ## CYP1A2
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| CYP1A2 | rs762551 | CYP1A2 *1F (higher inducibility; affects E2 hydroxylation). | Estradiol metabolism/clearance | Yes |  | AA |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CYP1A2 | rs762551 |  |  |  |  |  | AA |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP1A2 *1F (higher inducibility; affects E2 hydroxylation). |
 
 \clearpage
 
 ## CYP3A4
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| CYP3A4 | rs35599367 | CYP3A4*22 (reduced hepatic clearance of estrogens). | Estradiol metabolism/clearance | Yes |  | GG |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CYP3A4 | rs35599367 |  |  |  |  |  | GG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP3A4*22 (reduced hepatic clearance of estrogens). |
 
 \clearpage
 
+\begin{landscape}
+
 ## CYP3A5
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| CYP3A5 | rs776746 | CYP3A5*3 (non-expressor; shifts clearance burden to CYP3A4). | Estradiol metabolism/clearance | Yes |  | CC |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CYP3A5 | rs776746 |  |  |  |  |  | CC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | CYP3A5*3 (non-expressor; shifts clearance burden to CYP3A4). |
+
+\end{landscape}
 
 \clearpage
 
 ## ESR2
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| ESR2 | rs1256049 | ESR2 coding (may alter ERβ function). | Estradiol metabolism/clearance | Yes |  | CC |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ESR2 | rs1256049 |  |  |  |  |  | CC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | ESR2 coding (may alter ERβ function). |
 
 \clearpage
 
 ## NR3C1
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| NR3C1 | rs6198 | NR3C1 GRβ (GC resistance). | Steroidogenesis / HPA | Yes |  | TT |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| NR3C1 | rs6198 |  |  |  |  |  | TT |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | NR3C1 GRβ (GC resistance). |
 
 \clearpage
 
 ## POR
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| POR | rs1057868 | POR A503V (modulates CYP19A1/CYP17A1 electron transfer). | Steroidogenesis / HPA | Yes |  | CC |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| POR | rs1057868 |  |  |  |  |  | CC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | POR A503V (modulates CYP19A1/CYP17A1 electron transfer). |
 
 \clearpage
 
 ## SHBG
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| SHBG | rs6259 | SHBG Asp327Asn (↑SHBG, ↓free E2). | Estradiol metabolism/clearance | Yes |  | AG |  |  |
-| SHBG | rs1799941 | SHBG promoter (↑SHBG). | Estradiol metabolism/clearance | Yes |  | AG |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| SHBG | rs6259 |  |  |  |  |  | AG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | SHBG Asp327Asn (↑SHBG, ↓free E2). |
+| SHBG | rs1799941 |  |  |  |  |  | AG |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | SHBG promoter (↑SHBG). |
 
 \clearpage
 
@@ -100,61 +104,65 @@ _Auto-highlights_: **⚠** ClinVar Pathogenic/LP **or** impact HIGH/MODERATE **o
 
 ## UGT1A1
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-| UGT1A1 | rs887829 | UGT1A1 *28 tag (reduced glucuronidation → slower E2 clearance). | Estradiol metabolism/clearance | Yes |  | CC |  |  |
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UGT1A1 | rs887829 |  |  |  |  |  | CC |  |  |  |  |  |  | e2_steroidogenesis_variant_scan_found.csv | UGT1A1 *28 tag (reduced glucuronidation → slower E2 clearance). |
 
 \end{landscape}
 
 \clearpage
 
-\begin{landscape}
-
 ## UNKNOWN
 
-| gene | rsid | note | category | found | gene_or_locus | genotype | priority | risk_call |
-|---|---|---|---|---|---|---|---|---|
-|  | rs1801133 | C677T reduces MTHFR activity; AA ~30% function; folate-responsive homocysteine. | Methylation/One‑carbon | Yes | MTHFR C677T | AG | high | Heterozygous risk allele |
-|  | rs1801131 | Milder activity drop; compound with C677T increases effect. | Methylation/One‑carbon | Yes | MTHFR A1298C | TT | moderate | No risk allele detected |
-|  | rs1801394 | MSR variant; B12-dependent homocysteine effects. | Methylation/One‑carbon | Yes | MTRR A66G | GG | moderate | Homozygous risk alleles |
-|  | rs1805087 | Methionine synthase variant; folate/B12 interactions. | Methylation/One‑carbon | Yes | MTR A2756G | AA | moderate | No risk allele detected |
-|  | rs3733890 | Betaine remethylation variant. | Methylation/One‑carbon | Yes | BHMT G742A | AG | research | Heterozygous risk allele |
-|  | rs1801198 | Lower holo‑TC; B12 delivery differences. | Methylation/One‑carbon | Yes | TCN2 C776G | CC | moderate | No risk allele detected |
-|  | rs4680 | Lower COMT activity with Met. | Catechol/Estrogen handling | Yes | COMT Val158Met | GG | moderate | No risk allele detected |
-|  | rs4633 | Haplotype marker. | Catechol/Estrogen handling | Yes | COMT H62H | CC | research | No risk allele detected |
-|  | rs762551 | Inducible activity. | Xenobiotic/Estrogen hydroxylation | Yes | CYP1A2 *1F | AA | moderate | Homozygous risk alleles |
-|  | rs35599367 | Reduced expression. | Xenobiotic/Estrogen clearance | Yes | CYP3A4 *22 | GG | moderate | No risk allele detected |
-|  | rs776746 | Non‑expresser. | Xenobiotic/Estrogen clearance | Yes | CYP3A5 *3 | CC | moderate | Homozygous risk alleles |
-|  | rs887829 | Reduced glucuronidation of bilirubin/estrogens. | Glucuronidation | Yes | UGT1A1 *28 tag | CC | high | No risk allele detected |
-|  | rs10046 | Associated with E2 variation. | Aromatase regulation | Yes | CYP19A1 3'UTR | GG | research | No risk allele detected |
-|  | rs4646 | Regulatory association. | Aromatase regulation | Yes | CYP19A1 intron | AC | research | Heterozygous risk allele |
-|  | rs700519 | Reduced activity in vitro. | Aromatase coding | Yes | CYP19A1 Arg264Cys | AG | moderate | No risk allele detected |
-|  | rs727479 | LD marker for E2 variation. | Aromatase regulation | Yes | CYP19A1 intron | AC | research | Heterozygous risk allele |
-|  | rs1057868 | Modulates CYP17A1/19A1 efficiency. | P450 electron transfer | Yes | POR A503V | CC | moderate | No risk allele detected |
-|  | rs6198 | Relative GC resistance. | Glucocorticoid receptor | Yes | NR3C1 GRβ | TT | research | No risk allele detected |
-|  | rs7903146 | Strong T2D association; insulin secretion. | Glucose/Diabetes risk | Yes | TCF7L2 | CC | high | No risk allele detected |
-|  | rs174546 | Affects LC‑PUFA synthesis. | PUFA metabolism | Yes | FADS1 | CT | moderate | Heterozygous risk allele |
-|  | rs1260326 | ↑ TG, ↓ fasting glucose. | Glucose/Triglycerides | Yes | GCKR P446L | CT | moderate | Heterozygous risk allele |
-|  | rs5219 | KATP channel variant. | Insulin secretion | Yes | KCNJ11 E23K | CT | moderate | Heterozygous risk allele |
-|  | rs9939609 | Weight gain risk allele. | Adiposity | Yes | FTO | TT | moderate | No risk allele detected |
-|  | rs6025 | Venous thromboembolism risk. | Thrombosis | Yes | F5 Factor V Leiden | CC | high | No risk allele detected |
-|  | rs1799963 | G20210A clot risk. | Thrombosis | Yes | F2 Prothrombin | GG | high | No risk allele detected |
-|  | rs1800562 | Hereditary hemochromatosis risk. | Iron overload | Yes | HFE C282Y | GG | high | No risk allele detected |
-|  | rs1799945 | Milder iron loading. | Iron overload | Yes | HFE H63D | CC | moderate | No risk allele detected |
-|  | rs7412 | Together with rs429358 defines APOE ε2/3/4. | Lipid/ApoE | Yes | APOE ε2 tag | CC | high | No risk allele detected |
-|  | rs1800629 | Higher TNF expression. | Inflammation | Yes | TNF‑α ‑308 | AG | research | Heterozygous risk allele |
-|  | rs1695 | Reduced GSTP1 activity. | Detox/Antioxidants | Yes | GSTP1 Ile105Val | AA | moderate | No risk allele detected |
-|  | rs4880 | Alters mitochondrial import; ROS handling. | Mitochondrial antioxidant | Yes | SOD2 Val16Ala | AG | moderate | No risk allele detected |
-|  | rs1801280 | Slow acetylator tag. | Acetylation | Yes | NAT2*5 | CC | moderate | No risk allele detected |
-|  | rs1799930 | Slow acetylator tag. | Acetylation | Yes | NAT2*6 | GG | moderate | No risk allele detected |
-|  | rs1799931 | Slow acetylator tag. | Acetylation | Yes | NAT2*7 | GG | moderate | No risk allele detected |
-|  | rs1800497 | D2 receptor density marker. | Neuro/Reward | Yes | DRD2/ANKK1 Taq1A | GG | research | No risk allele detected |
-|  | rs1799971 | Analgesic response/nausea differences. | Opioid sensitivity | Yes | OPRM1 A118G | AG | moderate | Heterozygous risk allele |
-|  | rs4988235 | T allele → lactase persistence. | Lactase persistence | Yes | LCT ‑13910 C/T | AG | moderate | No risk allele detected |
-|  | rs2187668 | DQ2 haplotype tag (proxy only). | Celiac tag (HLA) | Yes | HLA‑DQ2 tag | CC | moderate | No risk allele detected |
-|  | rs7454108 | DQ8 tag (proxy only). | Celiac tag (HLA) | Yes | HLA‑DQ8 tag | TT | moderate | No risk allele detected |
-
-\end{landscape}
+| gene | rsid | chrom | pos | ref | alt | hgvs | zygosity | variant | effect | impact | consequence | clinvar | gnomad_af | source | note |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|  | rs1801133 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | C677T reduces MTHFR activity; AA ~30% function; folate-responsive homocysteine. |
+|  | rs1801131 |  |  |  |  |  | TT |  |  |  |  |  |  | global_variant_scan_found.csv | Milder activity drop; compound with C677T increases effect. |
+|  | rs1801394 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | MSR variant; B12-dependent homocysteine effects. |
+|  | rs1805087 |  |  |  |  |  | AA |  |  |  |  |  |  | global_variant_scan_found.csv | Methionine synthase variant; folate/B12 interactions. |
+|  | rs3733890 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | Betaine remethylation variant. |
+|  | rs1801198 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Lower holo‑TC; B12 delivery differences. |
+|  | rs4680 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Lower COMT activity with Met. |
+|  | rs4633 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Haplotype marker. |
+|  | rs762551 |  |  |  |  |  | AA |  |  |  |  |  |  | global_variant_scan_found.csv | Inducible activity. |
+|  | rs35599367 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Reduced expression. |
+|  | rs776746 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Non‑expresser. |
+|  | rs887829 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Reduced glucuronidation of bilirubin/estrogens. |
+|  | rs10046 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Associated with E2 variation. |
+|  | rs4646 |  |  |  |  |  | AC |  |  |  |  |  |  | global_variant_scan_found.csv | Regulatory association. |
+|  | rs700519 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | Reduced activity in vitro. |
+|  | rs727479 |  |  |  |  |  | AC |  |  |  |  |  |  | global_variant_scan_found.csv | LD marker for E2 variation. |
+|  | rs1057868 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Modulates CYP17A1/19A1 efficiency. |
+|  | rs6198 |  |  |  |  |  | TT |  |  |  |  |  |  | global_variant_scan_found.csv | Relative GC resistance. |
+|  | rs7903146 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Strong T2D association; insulin secretion. |
+|  | rs174546 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_found.csv | Affects LC‑PUFA synthesis. |
+|  | rs1260326 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_found.csv | ↑ TG, ↓ fasting glucose. |
+|  | rs5219 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_found.csv | KATP channel variant. |
+|  | rs9939609 |  |  |  |  |  | TT |  |  |  |  |  |  | global_variant_scan_found.csv | Weight gain risk allele. |
+|  | rs6025 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Venous thromboembolism risk. |
+|  | rs1799963 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | G20210A clot risk. |
+|  | rs1800562 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Hereditary hemochromatosis risk. |
+|  | rs1799945 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Milder iron loading. |
+|  | rs7412 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Together with rs429358 defines APOE ε2/3/4. |
+|  | rs1800629 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | Higher TNF expression. |
+|  | rs1695 |  |  |  |  |  | AA |  |  |  |  |  |  | global_variant_scan_found.csv | Reduced GSTP1 activity. |
+|  | rs4880 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | Alters mitochondrial import; ROS handling. |
+|  | rs1801280 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | Slow acetylator tag. |
+|  | rs1799930 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Slow acetylator tag. |
+|  | rs1799931 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | Slow acetylator tag. |
+|  | rs1800497 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_found.csv | D2 receptor density marker. |
+|  | rs1799971 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | Analgesic response/nausea differences. |
+|  | rs4988235 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_found.csv | T allele → lactase persistence. |
+|  | rs2187668 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_found.csv | DQ2 haplotype tag (proxy only). |
+|  | rs7454108 |  |  |  |  |  | TT |  |  |  |  |  |  | global_variant_scan_found.csv | DQ8 tag (proxy only). |
+|  | rs1801133 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | C677T reduces MTHFR activity; AA ~30% function; folate-responsive homocysteine. |
+|  | rs1801394 |  |  |  |  |  | GG |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | MSR variant; B12-dependent homocysteine effects. |
+|  | rs762551 |  |  |  |  |  | AA |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | Inducible activity. |
+|  | rs776746 |  |  |  |  |  | CC |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | Non‑expresser. |
+|  | rs174546 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | Affects LC‑PUFA synthesis. |
+|  | rs1260326 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | ↑ TG, ↓ fasting glucose. |
+|  | rs5219 |  |  |  |  |  | CT |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | KATP channel variant. |
+|  | rs1799971 |  |  |  |  |  | AG |  |  |  |  |  |  | global_variant_scan_priority_hits.csv | Analgesic response/nausea differences. |
 
 \clearpage
 
