@@ -4,6 +4,8 @@ OUT="data/exports/case_study_handout_$(date +%Y%m%d)_short.pdf"
 
 inputs=()
 for f in \
+  data/analytics/genetics_top_hits.md \
+  docs/genetic_findings.md \
   docs/genetic_findings.md \
   docs/clinician_checklist.md \
   docs/physician_brief.md \
