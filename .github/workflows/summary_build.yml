@@ -1,0 +1,27 @@
+name: Build Case Study Summary PDF
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install deps (pandoc + wkhtmltopdf)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+
+      - name: Build integrated summary
+        run: |
+          chmod +x tools/render_summary.sh || true
+          ./tools/render_summary.sh
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: case_study_summary_pdf
+          path: data/exports/case_study_summary_*.pdf
