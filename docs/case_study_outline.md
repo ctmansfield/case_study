@@ -55,6 +55,7 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
 - **Other systems:** **TBD**
 
 ## 7. Investigations
+- See `docs/physio_tracking.md` and `docs/lab_tracking.md` for physiologic and laboratory tracking.
 - Labs/imaging performed: **TBD**
 - Notable results: **TBD**
 - Pending tests/referrals: **TBD**
