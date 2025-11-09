@@ -146,3 +146,10 @@ By lowering methylation strain, creatine likely:
 
 **Selected references:** reviews on food-derived histamine intolerance, DAO activity, and symptom reduction with DAO supplementation.
 
+
+## References
+See the curated lists under [`refs/`](../refs/):
+
+- Clonidine (central α2): [`refs/clonidine.md`](../refs/clonidine.md)  
+- Creatine & methylation: [`refs/creatine_methylation.md`](../refs/creatine_methylation.md)  
+- Histamine axis (H1/H2/DAO/MCAS): [`refs/histamine_axis.md`](../refs/histamine_axis.md)

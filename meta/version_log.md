@@ -12,3 +12,4 @@
 - 2025-11-08 — appended creatine/methylation burden mechanism; updated mechanistic_map with MCAS impact
 - 2025-11-08 — added clonidine mechanism with literature anchors; extended mechanistic_map for sympathetic dampening
 - 2025-11-08 — added hydroxyzine/famotidine/DAO mechanisms; extended mechanistic_map with H1/H2 blockade and DAO rows
+- 2025-11-08 — added refs/ with clonidine, creatine–methylation, and histamine-axis citations; linked from mechanisms.md
