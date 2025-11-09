@@ -37,3 +37,8 @@ If you have Pandoc installed, you can generate a unified PDF/Docx from Markdown:
 ```
 
 If you prefer GitHub to build automatically, enable the included workflow in `.github/workflows/export.yml`.
+
+### Handout (concise printout)
+- Normal: `./tools/render_handout.sh` → `data/exports/case_study_handout_YYYYMMDD.pdf`  
+- **Short (1–2 pages):** `./tools/render_handout.sh --short` → `..._short.pdf`  
+  Includes **Checklist + Physician Brief + trimmed Analytics** with compact layout.

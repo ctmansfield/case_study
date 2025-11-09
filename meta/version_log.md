@@ -18,3 +18,4 @@
 - 2025-11-08 — Session 8: add medication_effects.md and link from outline
 - 2025-11-08 — add README quick links & repo map; add clinician_checklist and link from outline
 - 2025-11-08 — add outline YAML title; add 2-page clinician handout exporter; CI to build summary+handout
+- 2025-11-08 — add compact handout CSS; add --short mode to renderer; README usage
