@@ -20,3 +20,4 @@
 - 2025-11-08 — add outline YAML title; add 2-page clinician handout exporter; CI to build summary+handout
 - 2025-11-08 — add compact handout CSS; add --short mode to renderer; README usage
 - 2025-11-08 — add deidentification, allergies/intolerances, episode template, lab panels, ER one-pager, CSV validator+CI, Makefile, issue template, .gitignore
+- 2025-11-08 — add tagged-release workflow to build & publish sharepack
