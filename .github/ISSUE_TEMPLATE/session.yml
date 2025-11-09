@@ -1,0 +1,29 @@
+name: Session Task
+description: Structured capture for a new drafting session
+title: "Session: <topic>"
+labels: ["session"]
+body:
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: What must we accomplish this session?
+      placeholder: e.g., Fill Episode Note for Nov 2025 flare; update medication_effects...
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs / Links
+      description: Paste links or data we’ll use
+  - type: checkboxes
+    id: outputs
+    attributes:
+      label: Outputs
+      options:
+        - label: Updated `symptom_log.md`
+        - label: New `episode_template.md` instance appended
+        - label: Updated `medication_effects.md`
+        - label: Exported Summary PDF
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Follow-ups

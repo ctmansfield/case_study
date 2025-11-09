@@ -1,0 +1,8 @@
+# outputs & temp
+data/exports/*
+!data/exports/.gitkeep
+backups/*
+*.swp
+*.tmp
+*.cache
+__pycache__/

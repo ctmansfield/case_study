@@ -39,6 +39,7 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
 - Family history: **TBD**
 
 ## 5. Medications & Sensitivities
+- See `docs/allergies_intolerances.md` (allergies/intolerances).
 - Current medications/supplements: **TBD**
 - **Adverse reactions (critical):**
   - **Opioids (incl. tramadol):** “very bad reactions” → **avoid**
@@ -86,3 +87,7 @@ Episodes stabilize with agents that suppress sympathetic + histaminergic overact
 - Methylation / monoamine restoration → *SAMe*, *methyl-B complex*  
 - Energy buffering → *creatine*, *HMB*  
 - Sleep circuit normalization → *quetiapine*, *CBD/THC*
+
+- See  for privacy/de-identification rules.
+
+- See  for standard labs.
