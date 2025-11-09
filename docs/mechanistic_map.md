@@ -17,3 +17,8 @@
 | **Histamine Axis Blockade (H1/H2)** | Histamine-mediated insomnia, photophobia, agitation, vasodilation → BP variability | **Hydroxyzine (H1 ± 5-HT2A)**, **Famotidine (H2)** | Reduces sensory hyperarousal and nocturnal fragmentation; blunts vascular/autonomic histamine effects |
 
 | **DAO Enzymatic Degradation (Dietary Histamine)** | Ingested histamine → systemic load → flare amplification | **DAO enzymes with meals** | Degrades luminal histamine pre-absorption → lowers total histamine burden; synergizes with H1/H2 blockade |
+
+| **Estrogen Clearance Capacity (CYP3A4*22/CYP3A5*3)** | Reduced 3A expression/activity → slower E2 clearance | Manage aromatase carefully (Anastrozole per clinician); monitor free E2/SHBG | Prevents E2-driven edema/sleep fragmentation/MC priming |
+| **Phase II Conjugation (UGT1A1*28, SULT1E1 var)** | Lower glucuronidation/sulfation throughput | Support liver conjugation; avoid excess folate spikes; track bilirubin | Shortens flare tail by limiting recirculating estrogens |
+| **Catechol Methylation (COMT Val158Met)** | Slower catechol methylation under load | Pace stressors; ensure methylation balance (see creatine note) | Lowers anxiety/insomnia amplification during flares |
+| **Binding Pool (SHBG variants)** | SHBG↑ → lowers free E2/T; genotype dependent | Recalculate free hormones when adjusting TRT/AI | Reduces swings in free hormone exposure |

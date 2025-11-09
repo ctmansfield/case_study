@@ -68,3 +68,9 @@ Findings consistent with **mast-cell activation overlap**; responsive to **H1/H2
 
 ### Genetics (summary)
 Clearance pattern consistent with **COMT-Met**, **UGT1A1*28 tag**, **CYP3A4*22/CYP3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors **estrogen/catechol persistence**. See `docs/genetic_findings.md`.
+
+### Genetics — practical implications (summary)
+- **Slower estrogen clearance** likely (CYP3A4*22 ± CYP3A5*3), compounded by **reduced Phase II** (UGT1A1*28, SULT1E1 var) → sensitive to **E2 accumulation**; keep free E2 in lower-physiologic range; monitor SHBG.
+- **COMT Val158Met** → lower catechol methylation capacity during stress; aligns with adrenergic/hyperarousal amplification.
+- **Management hooks:** gentle aromatase control; avoid high histamine/folate spikes; leverage creatine (methylation-sparing) strategy; use clonidine/H1/H2/DAO per clinical judgment.
+
