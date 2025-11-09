@@ -76,7 +76,6 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
 
 ---
 
-### Clinician Integration Note — Session 2
 **Therapeutic pattern:**  
 Episodes stabilize with agents that suppress sympathetic + histaminergic overactivation while supporting mitochondrial energy and anabolic tone.
 

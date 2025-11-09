@@ -1,4 +1,3 @@
-# Session 3 — Physiologic Correlates & Lab Tracking
 
 > **Goal:** provide structured, clinician-reviewable capture of vital and biochemical correlates observed during and between episodes.
 

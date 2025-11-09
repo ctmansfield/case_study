@@ -5,7 +5,6 @@
 | Date (YYYY‑MM) | Event/Context | Trigger | Symptoms | Intervention | Outcome | Notes |
 |---|---|---|---|---|---|---|
 | TBD | First notable stress event | Stressor | Cognitive/motor issues, anxiety | TBD | TBD | From prior memory |
-## 2025-11-08 — Session 2: Post-Episode Pattern Characterization
 **Context:** Retrospective awareness of multi-system stress-triggered episodes established.  
 **Highlights:**
 - **Recognition lag:** episodes usually realized **after resolution**.

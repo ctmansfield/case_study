@@ -1,4 +1,3 @@
-## Session 2 – Episode & After-effects Update
 ### Revised HPI Summary
 Episodes often **go unrecognized until they have already passed**, retrospectively marked by a mix of **wild blood-glucose spikes**, **migraine**, **lost sleep**, **agitation**, **hyperarousal**, **hypertension**, **post-operative foot swelling**, **mood swings**, **exhaustion/lethargy**, **light sensitivity**, **heightened smell**, **blunted senses**, **subjective cognitive “shutdown”**, **disconnection from surroundings**, **memory loss**, **loss of coordination**, **falls**, and **presyncope**.  
 Frequency tracks with **stress or adrenergic activation**, whether from acute surges or antagonistic social/physiologic triggers.  Duration scales with how long symptoms reinforce one another — sometimes **weeks to months**, and historically **years** on poorly-tolerated medications.  Severity **progressively worsens** with each flare, without full recovery of baseline cognition.

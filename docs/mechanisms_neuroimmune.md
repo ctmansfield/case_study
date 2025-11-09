@@ -1,4 +1,3 @@
-# Neuroimmune & Endocrine Integration (Session 5)
 
 > Mechanistic synthesis of stress-linked MCAS physiology, endocrine feedback, and metabolic adaptation.
 

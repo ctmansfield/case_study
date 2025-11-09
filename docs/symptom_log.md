@@ -1,6 +1,5 @@
 # Symptom Log (Clustered)
 
-## Session 2 – Quick answers (filled 2025-11-08)
 - **Episode awareness:** Often **not noticed until they’re over**; recognition is retrospective.
 - **Phenotype (mixed bag):** wild fasting **BG spikes**, **migraines**, **lost sleep**, **agitation**, **hyperarousal**, **hypertension**, **swelling** (post-op foot), **mood swings**, **exhaustion/lethargy**, **light sensitivity**, **heightened smell**, **dulled senses**, feeling “**retarded**/divorced from surroundings,” **memory loss**, **loss of coordination**, **falls**, **presyncope**, and more.
 - **Frequency / drivers:** Associated with **stress / adrenergic response**; triggered by **rapid BG peaks/dips** and **unnecessary antagonism**.
@@ -24,7 +23,6 @@
 
 ---
 
-## Pharmacologic Links — Session 2 Integration
 *(From prior step; keep in sync with medication_effects.md)*
 
 | Cluster | Key Symptoms | Primary Beneficial Agents | Mechanistic Summary |
@@ -37,7 +35,6 @@
 | Autonomic / Histamine Axis | BP spikes, flushing, agitation | Clonidine, DAO, Famotidine, Hydroxyzine | ↓sympathetic outflow + histamine degradation/blockade |
 
 
-### Session 2 Addendum – MCAS Link (2025-11-08)
 Patient notes that **flares mirror Mast Cell Activation Syndrome (MCAS)** patterns exactly.  
 Symptoms reproducible with **high-histamine foods** or **excess folate** intake, producing identical cascades of hyperarousal, cognitive fog, and post-episode exhaustion.  
 → Confirms **mast-cell / histamine-driven amplification** of existing adrenergic and metabolic responses.
