@@ -65,3 +65,6 @@ Patient with stress-triggered episodes characterized by loss of cognitive functi
 ### Exacerbants
 Episodes reliably triggered by **high-histamine foods** or **excess folate**, producing identical symptom clusters to stress-induced flares.  
 Findings consistent with **mast-cell activation overlap**; responsive to **H1/H2 blockade** and **DAO enzyme support**.
+
+### Genetics (summary)
+Clearance pattern consistent with **COMT-Met**, **UGT1A1*28 tag**, **CYP3A4*22/CYP3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors **estrogen/catechol persistence**. See `docs/genetic_findings.md`.
