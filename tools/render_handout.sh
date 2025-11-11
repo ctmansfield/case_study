@@ -11,6 +11,10 @@ for f in \
   docs/physician_brief.md \
   data/analytics/correlations.md \
   docs/medication_effects.md
+  data/analytics/med_response_summary.md \
+  data/analytics/sleep_summary.md \
+  data/analytics/glucose_summary.md \
+  data/analytics/bp_hr_summary.md \
 do
   [ -f "$f" ] && inputs+=("$f")
 done

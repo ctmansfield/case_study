@@ -4,3 +4,4 @@ timestamp,medication,dose,effectiveness_0_to_10,side_effects,episode_triggered,m
 # effectiveness_0_to_10: subjective effectiveness
 # episode_triggered: y/n
 # mechanism_class: alpha2-agonist / H1 / H2 / DAO / benzodiazepine / corticosteroid / supplement / etc.
+2025-11-10T09:00:00,clonidine,0.1 mg,8,sedation mild,n,EXAMPLE: calmer within 30m

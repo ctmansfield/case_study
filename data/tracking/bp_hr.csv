@@ -7,3 +7,4 @@ timestamp,SBP,DBP,HR,sleep_deficit_hours,episode_flag,trigger_type,intervention,
 # trigger_type: stress / histamine / folate / exertion / unknown
 # intervention: clonidine / H1 / H2 / DAO / electrolytes / none
 # response: better / worse / same
+2025-11-10T07:15:00,162,98,104,2,1,stress,clonidine,better,EXAMPLE: meeting conflict

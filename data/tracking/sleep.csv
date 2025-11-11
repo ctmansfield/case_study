@@ -1,2 +1,3 @@
 date,total_sleep_hours,restorative_sleep_score,middle_of_night_awakenings,next_day_SBP,next_day_glucose,notes
 # restorative_sleep_score: 0-5 scale
+2025-11-09,5.5,1,4,150/95,120,EXAMPLE: fragmented, woke sweating
