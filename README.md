@@ -50,3 +50,11 @@ If you prefer GitHub to build automatically, enable the included workflow in `.g
 - Genetics (plain language): `docs/genetics_lay.md`
 
 - **Genetics Appendix (full index)**: produced by `make genetics_appendix` → `data/exports/case_study_genetics_appendix_YYYYMMDD.pdf`
+
+## Quick Links (New)
+- `docs/diagnostic_alignment.md` — how data aligns with diagnostic frameworks
+- `case_study/case_study_outline.md` — publication-style structure
+- `CLINICIAN_SUPPORT_CHECKLIST.md` — what to bring/ask/track
+- `docs/case_study_enhancers.md` — objective additions to strengthen case
+- `docs/genotype_phenotype_map.md` — variant → phenotype table
+- `data/tracking/` — objective CSVs (BP/HR, glucose, meds, sleep)

@@ -1,0 +1,2 @@
+timestamp,SBP,DBP,HR,sleep_deficit_hours,episode_flag,trigger_type,intervention,response,notes
+,,,,,,,(clonidine|H1/H2|DAO|breathing|none),(better|worse|same),

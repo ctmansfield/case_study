@@ -1,0 +1,2 @@
+timestamp,medication,dose,effectiveness,side_effects,episode_triggered,notes
+,,,(0-10),,(y|n),

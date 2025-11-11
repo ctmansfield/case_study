@@ -30,3 +30,6 @@ Apology email reflects preserved insight post-flare; supports pattern of adrener
 
 #### 2022-09-26 to 2022-09-29 — Iatrogenic exacerbation (duloxetine/gabapentin)
 Self-report consistent with serotonergic toxicity and gabapentin adverse behavioral effects; suicidality occurred during peak iatrogenic state.
+
+### 2025-11-07 — Quetiapine (single dose) during 72-h fast
+Observation: next-day **ketogenesis** onset noted; sedation likely reduced defensive arousal enabling metabolic shift. (For context only; not ongoing medication.)

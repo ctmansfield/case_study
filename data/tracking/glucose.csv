@@ -1,0 +1,2 @@
+timestamp,fasting_glucose,postprandial_glucose,meal_histamine_score,folate_load,stress_event,sleep_deficit_hours,notes
+,,,(0-5),(low|mod|high),(0|1),,
