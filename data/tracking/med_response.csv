@@ -1,2 +1,6 @@
-timestamp,medication,dose,effectiveness,side_effects,episode_triggered,notes
-,,,(0-10),,(y|n),
+timestamp,medication,dose,effectiveness_0_to_10,side_effects,episode_triggered,mechanism_class,notes
+# medication: name (generic)
+# dose: mg or IU
+# effectiveness_0_to_10: subjective effectiveness
+# episode_triggered: y/n
+# mechanism_class: alpha2-agonist / H1 / H2 / DAO / benzodiazepine / corticosteroid / supplement / etc.

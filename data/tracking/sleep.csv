@@ -1,2 +1,2 @@
-date,total_sleep,restorative_sleep_quality,middle_of_night_awakenings,next_day_bp,next_day_glucose,notes
-,(hours),(0-5),,,,
+date,total_sleep_hours,restorative_sleep_score,middle_of_night_awakenings,next_day_SBP,next_day_glucose,notes
+# restorative_sleep_score: 0-5 scale

@@ -1,2 +1,6 @@
 timestamp,fasting_glucose,postprandial_glucose,meal_histamine_score,folate_load,stress_event,sleep_deficit_hours,notes
-,,,(0-5),(low|mod|high),(0|1),,
+# fasting_glucose: mg/dL
+# postprandial_glucose: mg/dL (peak 45–120 min post-meal)
+# meal_histamine_score: 0 = low, 1 = moderate, 2 = high-histamine meal
+# folate_load: low / moderate / high
+# stress_event: 1 = yes, 0 = no

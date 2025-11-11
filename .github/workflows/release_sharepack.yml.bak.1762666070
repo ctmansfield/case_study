@@ -1,0 +1,55 @@
+name: Release Sharepack
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf zip make python3
+
+      - name: Build exports
+        run: |
+          make export summary handout short || true
+          make sharepack
+
+      - name: Generate CHANGELOG
+        run: |
+          python3 tools/gen_changelog.py
+          test -s CHANGELOG.md && head -n 60 CHANGELOG.md || true
+
+      - name: Capture paths
+        id: paths
+        shell: bash
+        run: |
+          echo "ZIP=$(ls -1 data/exports/case_study_sharepack_*.zip | tail -n 1)" >> "$GITHUB_ENV"
+          echo "SUMMARY=$(ls -1 data/exports/case_study_summary_*.pdf | tail -n 1)" >> "$GITHUB_ENV"
+          echo "HANDOUT=$(ls -1 data/exports/case_study_handout_*.pdf | tail -n 1)" >> "$GITHUB_ENV"
+          echo "HANDOUT_SHORT=$(ls -1 data/exports/case_study_handout_*_short.pdf | tail -n 1 || true)" >> "$GITHUB_ENV"
+
+      - name: Create GitHub Release with assets
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: false
+          prerelease: false
+          body_path: CHANGELOG.md
+          files: |
+            ${{ env.ZIP }}
+            ${{ env.SUMMARY }}
+            ${{ env.HANDOUT }}
+            ${{ env.HANDOUT_SHORT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

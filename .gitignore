@@ -6,3 +6,4 @@ backups/*
 *.tmp
 *.cache
 __pycache__/
+data/tracking/*.csv

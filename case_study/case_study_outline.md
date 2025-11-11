@@ -1,25 +1,38 @@
-# Case Study — Outline (Draft)
+# Case Study Outline
 
 ## 1. Introduction
-- Baseline health, key exposures, and overview of episodic physiology (hyperadrenergic + histamine-mediated flares).
+Brief baseline physiology and symptom history.
 
 ## 2. Clinical Course & Timeline
-- Anchor events and chronology referencing `docs/timeline.md` (5–10 high-signal datapoints).
+Include:
+- Onset markers  
+- Significant flares  
+- Seroquel → ketosis transition note  
+- Patterns over time  
 
-## 3. Phenotype Description (Condensed HPI)
-- Onset & evolution, typical episode sequence (prodrome → peak → recovery), frequency/duration/severity, triggers (stress, histamine, folate), alleviators (clonidine, H1/H2/DAO, breathing, exercise pacing).
+## 3. Phenotype Description
+Condensed HPI with major clusters:
+- Autonomic  
+- Mast-cell–mediator  
+- Metabolic  
+- Sleep  
+- Stress response  
 
-## 4. Objective Data
-- Point to CSV sources in `data/tracking/` (BP/HR, glucose variability, medication-response, sleep) and `data/analytics/`.
+## 4. Objective Data Summary
+Reference CSVs in `data/tracking/`.
 
-## 5. Genetics & Mechanistic Map
-- Summarize `data/analytics/genetics_top_hits.md` and `data/analytics/genetics_appendix.md`; tie to `docs/mechanistic_map.md` and `docs/mechanisms*.md`.
+## 5. Genetics & Mechanistic Interpretation
+Variants → pathways → phenotypes.
 
 ## 6. Interventions & Responses
-- Medication effects (beneficials vs adverse), dosing windows, response patterns.
+Medication table and reproducible effects.
 
-## 7. Differential Diagnoses (Working List)
-- MCAS physiology; adrenergic hyperresponsiveness; stress-induced hyperglycemia; impaired estrogen clearance; medication intolerance physiology.
+## 7. Differential Diagnosis Framework
+- MCAS  
+- Autonomic dysregulation  
+- Stress hyperglycemia  
+- Estrogen-clearance physiology  
+- Medication intolerance pattern  
 
-## 8. Discussion (Reserved for clinician/author team)
-- Implications, limitations, hypotheses, and prospective evaluation plan.
+## 8. Discussion (to be completed by clinician)
+

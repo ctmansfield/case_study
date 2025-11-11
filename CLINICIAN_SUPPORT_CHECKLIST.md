@@ -1,17 +1,20 @@
 # Clinician Support Checklist
 
 ## Before the Visit
-- [ ] Attach last 4 weeks: **BP/HR** (`data/tracking/bp_hr.csv`)
-- [ ] Attach last 4 weeks: **Glucose** (`data/tracking/glucose.csv`)
-- [ ] Attach last 4 weeks: **Sleep** (`data/tracking/sleep.csv`)
-- [ ] 1-page summary (handout PDF) + adverse medication list
+- Provide BP/HR logs (last 4–6 weeks)
+- Provide glucose logs (last 4–6 weeks)
+- Provide sleep tracking CSV
+- Bring 1-page summary handout
+- Bring full medication adverse-response table
 
 ## During the Visit
-- [ ] Evaluate **autonomic dysregulation / adrenergic surges**
-- [ ] Evaluate **MCAS-like physiology** despite normal tryptase
-- [ ] Review **endocrine pattern** (estrogen handling and clearance)
-- [ ] Consider if dataset supports a **formal case write-up**
+- Request evaluation for:
+  - Autonomic dysregulation (adrenergic surges)
+  - MCAS-like symptom clustering
+  - Estrogen/clearance variant physiology
+- Ask if the phenotype aligns with a publishable case study
 
 ## After the Visit
-- [ ] Update symptom log and correlations
-- [ ] Log interventions and responses (dose, timing, effect)
+- Update symptom episode tracking
+- Add new medication trials
+- Maintain objective logs

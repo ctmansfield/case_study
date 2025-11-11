@@ -1,2 +1,9 @@
 timestamp,SBP,DBP,HR,sleep_deficit_hours,episode_flag,trigger_type,intervention,response,notes
-,,,,,,,(clonidine|H1/H2|DAO|breathing|none),(better|worse|same),
+# timestamp: ISO 8601 (e.g., 2025-11-09T14:32)
+# SBP/DBP: systolic/diastolic BP (mmHg)
+# HR: heart rate (bpm)
+# sleep_deficit_hours: hours below normal sleep baseline
+# episode_flag: 1 = adrenergic/MCA-like episode, 0 = baseline
+# trigger_type: stress / histamine / folate / exertion / unknown
+# intervention: clonidine / H1 / H2 / DAO / electrolytes / none
+# response: better / worse / same

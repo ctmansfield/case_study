@@ -1,6 +1,22 @@
-# Case Study Enhancers (Objective Additions)
+# Case Study Evidence Enhancers
 
-- **Orthostatic vitals (5–10 min active stand):** HR/BP trajectories → autonomic profile.
-- **Histamine challenge correlation:** record meal, latency, symptom score, H1/H2/DAO timing/response.
-- **Stress challenge correlation:** situational trigger → HR/BP/BG time course.
-- **Reproducibility:** ≥3 occurrences of the same pattern (dietary or stress) with response to countermeasures.
+## 1. Orthostatic Testing
+Record:
+- Supine HR/BP × 5 min  
+- Standing HR/BP × 10 min  
+
+## 2. Histamine Trigger Correlation
+Document:
+- Specific food  
+- Timing  
+- Symptoms  
+- Response to H1/H2/DAO  
+
+## 3. Stress Challenge Correlation
+- Describe stressor  
+- Capture BP/HR/glucose within 10–30 min  
+- Log symptom progression  
+
+## 4. Reproducibility
+Episodes reproduced ≥3× strengthen diagnostic clarity.
+
