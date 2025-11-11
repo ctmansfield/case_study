@@ -7,3 +7,4 @@ backups/*
 *.cache
 __pycache__/
 data/tracking/*.csv
+.venv_case/
