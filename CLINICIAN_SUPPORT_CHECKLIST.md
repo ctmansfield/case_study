@@ -1,20 +1,17 @@
 # Clinician Support Checklist
 
-## Before the Visit
-- Provide BP/HR logs (last 4–6 weeks)
-- Provide glucose logs (last 4–6 weeks)
-- Provide sleep tracking CSV
-- Bring 1-page summary handout
-- Bring full medication adverse-response table
+## Before the visit
+- Attach last 4 weeks of BP/HR logs (`data/tracking/bp_hr_log.csv`).
+- Attach last 4 weeks of glucose logs (`data/tracking/glucose_variability.csv`).
+- Bring 1-page summary and handout.
+- Bring full adverse medication list and responses (`data/tracking/medication_responses.csv`).
+- Sleep snapshot for 4 weeks (`data/tracking/sleep_log.csv`).
 
-## During the Visit
-- Request evaluation for:
-  - Autonomic dysregulation (adrenergic surges)
-  - MCAS-like symptom clustering
-  - Estrogen/clearance variant physiology
-- Ask if the phenotype aligns with a publishable case study
+## During the visit
+- Discuss autonomic dysregulation evaluation, MCAS-like physiology, HPA rigidity vs DHEAS deficit, glucagon/cortisol co-dominance, and mitochondrial switching impairment.
+- Ask which confirmatory labs he prefers; propose: ACTH stim, glucagon, acylcarnitines, OAT, IGF-1/IGFBP-3, salivary cortisol curve.
 
-## After the Visit
-- Update symptom episode tracking
-- Add new medication trials
-- Maintain objective logs
+## After the visit
+- Update logs weekly.
+- Track trial interventions and outcomes.
+- Note any reproducible triggers and responses.

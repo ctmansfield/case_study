@@ -1,22 +1,8 @@
-# Case Study Evidence Enhancers
+# Case Study Enhancers (Data to strengthen publishability)
 
-## 1. Orthostatic Testing
-Record:
-- Supine HR/BP × 5 min  
-- Standing HR/BP × 10 min  
-
-## 2. Histamine Trigger Correlation
-Document:
-- Specific food  
-- Timing  
-- Symptoms  
-- Response to H1/H2/DAO  
-
-## 3. Stress Challenge Correlation
-- Describe stressor  
-- Capture BP/HR/glucose within 10–30 min  
-- Log symptom progression  
-
-## 4. Reproducibility
-Episodes reproduced ≥3× strengthen diagnostic clarity.
-
+- Orthostatic vitals (5–10 min active stand) with symptoms.
+- Histamine challenge diary: food → timing → symptoms → H1/H2/DAO response.
+- Stress challenge diary: stressor → HR/BP → glucose → symptom cluster.
+- Reproducibility: show ≥3 episodes with similar pattern.
+- Add acylcarnitine panel, OAT, lactate/pyruvate ratio if ordered.
+- Document quetiapine (Seroquel) timing and ketone switching temporal link.

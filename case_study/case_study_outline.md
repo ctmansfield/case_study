@@ -1,38 +1,35 @@
 # Case Study Outline
 
-## 1. Introduction
-Brief baseline physiology and symptom history.
+## Title
+Prolonged-fasting hyperglycemia with delayed ketogenesis in a non-diabetic adult: evidence of central nutrient-sensing/HPA dysregulation with mitochondrial inflexibility
 
-## 2. Clinical Course & Timeline
-Include:
-- Onset markers  
-- Significant flares  
-- Seroquel → ketosis transition note  
-- Patterns over time  
+## Abstract (structured)
+[To be completed after Results/Discussion]
 
-## 3. Phenotype Description
-Condensed HPI with major clusters:
-- Autonomic  
-- Mast-cell–mediator  
-- Metabolic  
-- Sleep  
-- Stress response  
+## Case Presentation
+- Demographics (de-identified), PMH, medications (TRT, anastrozole, HCG), metformin trial, GLP-1/GIP history.
+- Symptom clusters: 5–6am lows, exercise HR cap, brain fog during fast, refeed migraine, abdominal pain.
 
-## 4. Objective Data Summary
-Reference CSVs in `data/tracking/`.
+## Investigations
+- Longitudinal labs (CBC macrocytosis; LFT spikes; lipids; thyroid; DHEAS/cortisol).
+- Fasting series table (glucose, insulin, C-pep, proinsulin, β-HB; timestamps).
+- CGM figure; expected vs observed physiology figure.
+- Note quetiapine temporal link to ketone rise.
 
-## 5. Genetics & Mechanistic Interpretation
-Variants → pathways → phenotypes.
+## Differential Diagnosis
+- Insulinoma (unlikely), classic IR (inconsistent), adrenal partial insufficiency vs rigidity, GH axis dysregulation, mitochondrial substrate-switching defect, autonomic/MCAS contribution.
 
-## 6. Interventions & Responses
-Medication table and reproducible effects.
+## Treatment & Response
+- Prior tirzepatide (partial compensation), ipamorelin/CJC (improved tolerance), non-pharmacologic (circadian, Zone-2).
 
-## 7. Differential Diagnosis Framework
-- MCAS  
-- Autonomic dysregulation  
-- Stress hyperglycemia  
-- Estrogen-clearance physiology  
-- Medication intolerance pattern  
+## Outcome & Follow-up
+- Late ketosis at ~72h; plan confirmatory testing.
 
-## 8. Discussion (to be completed by clinician)
+## Discussion
+- Central thesis and mechanism with references.
 
+## Patient Perspective
+[2–4 sentences]
+
+## Consent & Ethics
+- Patient-authored; de-identified; consent documented.
