@@ -33,3 +33,6 @@ Self-report consistent with serotonergic toxicity and gabapentin adverse behavio
 
 ### 2025-11-07 — Quetiapine (single dose) during 72-h fast
 Observation: next-day **ketogenesis** onset noted; sedation likely reduced defensive arousal enabling metabolic shift. (For context only; not ongoing medication.)
+
+### 2025-11-07 — Quetiapine (single dose) during 72-h fast
+Observation: next-day **ketogenesis** onset noted; sedation likely reduced defensive arousal enabling metabolic shift. (For context only; not ongoing medication.)
