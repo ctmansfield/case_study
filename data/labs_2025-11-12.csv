@@ -1,0 +1,46 @@
+Analyte,Value,Units,Reference Range,Interpretation
+Glucose (fasting),131,mg/dL,70-99,Elevated – persistent hepatic insulin resistance despite fasting
+β-Hydroxybutyrate,<0.2,mmol/L,0.3-2.0,Absent ketosis – impaired mitochondrial substrate switching
+Insulin (fasting),10.5,µIU/mL,2.0-9.0,Slightly elevated given fasting – hepatic insulin resistance
+C-Peptide,2.0,ng/mL,0.8-3.5,Normal – endogenous insulin preserved
+Cortisol (AM),11,µg/dL,5-23,Normal-midrange – relatively high given prolonged fast
+DHEA-S,42,µg/dL,80-560,Low – adrenal androgen suppression, possible HPA imbalance
+ACTH,22,pg/mL,7-63,Normal
+Testosterone (total),915,ng/dL,300-1000,High-normal under TRT
+Estradiol (E2),38,pg/mL,8-35,Mildly elevated – consistent with aromatase rebound under TRT
+SHBG,28,nmol/L,10-57,Normal
+ALT,46,U/L,0-45,Mildly elevated – hepatic stress/oxidative load
+AST,32,U/L,0-40,Normal
+Alk Phos,70,U/L,44-147,Normal
+Bilirubin (total),0.6,mg/dL,0.1-1.2,Normal
+Albumin,4.5,g/dL,3.5-5.2,Normal
+Total Protein,6.9,g/dL,6.0-8.5,Normal
+BUN,16,mg/dL,6-20,Normal
+Creatinine,1.02,mg/dL,0.7-1.3,Normal
+eGFR,88,mL/min/1.73m2,>60,Normal renal function
+Sodium,140,mmol/L,135-145,Normal
+Potassium,4.3,mmol/L,3.5-5.1,Normal
+Chloride,102,mmol/L,98-107,Normal
+CO2,23,mmol/L,22-29,Normal
+Calcium,9.4,mg/dL,8.6-10.2,Normal
+Magnesium,2.0,mg/dL,1.6-2.6,Normal
+Phosphate,3.3,mg/dL,2.5-4.5,Normal
+Hemoglobin A1c,5.7,%,<5.7,Borderline prediabetic
+Total Cholesterol,182,mg/dL,<200,Normal
+LDL-C,106,mg/dL,<100,Borderline
+HDL-C,48,mg/dL,>40,Normal
+Triglycerides,112,mg/dL,<150,Normal
+WBC,5.2,K/µL,4.0-10.5,Normal
+RBC,5.0,M/µL,4.5-5.9,Normal
+Hemoglobin,15.2,g/dL,13.5-17.5,Normal
+Hematocrit,45,%,40-52,Normal
+Platelets,143,K/µL,150-450,Borderline low – consistent with mild stress marrow suppression
+MCV,89,fL,80-96,Normal
+CRP (hs),1.1,mg/L,<3.0,Low-grade inflammation only
+Ferritin,82,ng/mL,30-400,Normal – adequate stores
+Vitamin B12,520,pg/mL,200-900,Normal
+Folate,10.2,ng/mL,>3,Normal
+TSH,2.4,µIU/mL,0.4-4.5,Normal
+Free T4,1.1,ng/dL,0.8-1.8,Normal
+Free T3,3.2,pg/mL,2.3-4.2,Normal
+Reverse T3,19,ng/dL,8-25,Normal – may be stress-shifted
