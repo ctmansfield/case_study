@@ -5,3 +5,5 @@ timestamp,fasting_glucose,postprandial_glucose,meal_histamine_score,folate_load,
 # folate_load: low / moderate / high
 # stress_event: 1 = yes, 0 = no
 2025-11-10T08:30:00,118,168,4,high,1,2,EXAMPLE: high histamine meal
+2025-11-10T07:45:00,108,,0,low,0,2,AM low BG → headache
+2025-11-10T12:30:00,,172,4,high,1,1,high-histamine lunch; jittery

@@ -86,3 +86,15 @@ Genetics (summary)
   *Implication:* gentle aromatase control, avoid large folate spikes, maintain methyl-sparing (creatine) & methyl-B support; use sympatholysis per clinical judgment. See `docs/genetic_findings.md`.
 
 **Labs note:** See  for mitochondrial/B6 interpretation.
+
+**See separate _Genetics Appendix_ PDF** for detailed variants, effects, and references.
+
+### Neurodevelopmental Context — Autism Spectrum Disorder (ASD)
+
+The patient carries a formal diagnosis of **Autism Spectrum Disorder (ASD)**. This is relevant for:
+
+- **Autonomic regulation:** autistic adults often show elevated sympathetic tone and reduced vagal flexibility, consistent with the documented episodic adrenergic surges and slow recovery.
+- **Interoception and sensory gain:** differences in internal signal processing can amplify perceived stress without implying primary psychiatric etiology.
+- **Medication sensitivity:** atypical or paradoxical responses to CNS-active medications are common in ASD and align with this patient’s history of severe adverse reactions.
+
+This context should be considered when interpreting autonomic, metabolic, and behavioral data across episodes.
