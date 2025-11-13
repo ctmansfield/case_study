@@ -84,3 +84,5 @@ See `docs/genetics.md` for tables and interpretation.
 Genetics (summary)
 :  Clearance pattern consistent with **COMT-Met**, **UGT1A1*28**, **CYP3A4*22/3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors estrogen/catechol persistence.  
   *Implication:* gentle aromatase control, avoid large folate spikes, maintain methyl-sparing (creatine) & methyl-B support; use sympatholysis per clinical judgment. See `docs/genetic_findings.md`.
+
+**Labs note:** See  for mitochondrial/B6 interpretation.

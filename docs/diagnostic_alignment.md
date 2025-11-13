@@ -1,21 +1,19 @@
-# Diagnostic Alignment (Non-diagnostic, framework mapping)
+# Diagnostic Alignment (for clinician review)
 
-This document maps observed data to established diagnostic frameworks to aid clinician interpretation.
+## MCAS / Histamine-Driven Physiology
+- Recurrent multi-system flares (neuro, cardio/autonomic, sleep, GI/edema).
+- **Triggers:** high-histamine foods; excess folate; stress.
+- **Response:** H1 (hydroxyzine), H2 (famotidine), **DAO** → improved sleep/arousal.
+- Note: **Normal tryptase does not exclude MCAS**.
 
-## MCAS (Non-clonal)
-- ≥2 organ systems during episodes (neuro, GI, derm/flush, cardio-autonomic).
-- Trigger patterns: high-histamine foods, stress, sleep loss.
-- Response patterns: H1/H2, DAO, clonidine for adrenergic surge.
-- Note: baseline tryptase may be normal in non-clonal MCAS.
+## Adrenergic Dysregulation / Autonomic Surges
+- BP spikes, HR variability, hyperarousal; **clonidine** responsive.
 
-## Autonomic/Adrenergic Dysregulation
-- BP/HR episodic surges, morning 5–6am lows, hypervigilance.
-- Improvement with alpha-2 agonist (clonidine) consistent with adrenergic contribution.
-- Consider active stand test + HRV.
+## Estrogen Handling — Genotype with Phenotype Expression
+- **CYP3A4*22 + CYP3A5*3** → slower E2 clearance.
+- **UGT1A1*28 tag** → reduced glucuronidation.
+- **COMT Val158Met (Met)** → slower catechol methylation.
+- Clinical: sensitivity when E2 is high; improved with precise anastrozole titration.
 
-## Endocrine/Metabolic
-- Prolonged fasting: elevated glucose, low insulin/C-pep, suppressed early ketones, late BHB rise.
-- Suggests central nutrient-sensing/HPA rigidity + impaired mitochondrial substrate switching.
-
-## Estrogen-Handling Genotype → Phenotype
-- COMT Met, CYP3A4*22, UGT1A1*28: slower catechol/estrogen clearance → stress sensitivity and E2 symptoms.
+## Stress-Linked Metabolic Dysfunction
+- Fasting/postprandial glucose spikes during flares; headaches when **BG <110 mg/dL**.
