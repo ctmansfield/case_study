@@ -59,6 +59,7 @@ Day-to-day impact includes confusion over simple tasks and safety concerns durin
 - **Other systems:** **TBD**
 
 ## 7. Investigations
+- See `docs/mitochondrial_findings.md` and `case_study/mitochondrial_evidence.md` for mitochondrial/B6 and exercise-physiology synthesis.
 - See `docs/mitochondrial_findings.md` (mitochondrial/B6 lab summary).
 - See `docs/genetic_findings.md` for genotype-informed interpretation.
 - See `docs/physio_tracking.md` and `docs/lab_tracking.md` for physiologic and laboratory tracking.

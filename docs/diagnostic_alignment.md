@@ -34,3 +34,17 @@ This diagnosis is relevant to interpretation of autonomic, sensory, and metaboli
 - **Stress Physiology:** Literature demonstrates higher baseline HPA activation in autistic adults. This supports the patient’s pattern of stress-driven glucose elevation, sympathetic activation, and episodic metabolic disruption.
 
 Incorporating ASD as a known diagnostic factor clarifies several physiologic patterns already documented in this case and provides appropriate context for differential diagnosis.
+
+---
+
+## Mitochondrial / Metabolic Myopathy Pattern
+
+- Lifelong exertional intolerance with **RPE–HR mismatch** and asymmetric limb weakness.
+- Treadmill test: failure at **~4 METs** with **local calf collapse**, low HR at failure, no dyspnea, normal HR recovery → consistent with **peripheral metabolic limitation**.
+- **“Alcoholic-pattern”** AST/ALT and GGT elevation despite complete alcohol abstinence; macrocytosis and intermittent CK/LDH drift.
+- Intermittent **dark-orange urine** episodes, compatible with low-grade pigmenturia in metabolic/mitochondrial myopathy.
+- Prior **valproate (Depakote)** intolerance with mitochondrial-type hepatic pattern.
+
+See:
+- `docs/mitochondrial_findings.md` (labs + historical stressors)
+- `case_study/mitochondrial_evidence.md` (integrated physiological evidence)

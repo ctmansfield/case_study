@@ -1,100 +1,180 @@
-### Revised HPI Summary
-Episodes often **go unrecognized until they have already passed**, retrospectively marked by a mix of **wild blood-glucose spikes**, **migraine**, **lost sleep**, **agitation**, **hyperarousal**, **hypertension**, **post-operative foot swelling**, **mood swings**, **exhaustion/lethargy**, **light sensitivity**, **heightened smell**, **blunted senses**, **subjective cognitive “shutdown”**, **disconnection from surroundings**, **memory loss**, **loss of coordination**, **falls**, and **presyncope**.  
-Frequency tracks with **stress or adrenergic activation**, whether from acute surges or antagonistic social/physiologic triggers.  Duration scales with how long symptoms reinforce one another — sometimes **weeks to months**, and historically **years** on poorly-tolerated medications.  Severity **progressively worsens** with each flare, without full recovery of baseline cognition.
+# Physician Brief (De-identified Case Summary)
 
-### Alleviators
-**Clonidine**, proactive **H1/H2 blockade** (hydroxyzine + famotidine + DAO), **box breathing**, **light exercise**, **sauna/hot-tub use**, **strength training**, and **maintaining flat blood glucose** all blunt the cascade.
-
-### Day-after Effects
-Dependent on episode duration and feedback severity — typically **fatigue**, **lethargy**, **brain-fog**, and **metabolic drift** with residual autonomic lability.
-# Physician Brief
-
-## Summary (HPI in brief)
-Patient with stress-triggered episodes characterized by loss of cognitive function and memory lapses, physical uncoordination with increased injury risk, severe uncontrollable anxiety/irritability, transient blood pressure spikes, non-restorative sleep, and intermittently elevated fasting blood glucose. Episodes follow stress exposure and resolve variably, leaving next-day fatigue/fog (details below once quantified).
-
-## Problem List
-1) Stress-induced neurocognitive dysfunction (episodic cognitive shutdown, memory lapses)  
-2) Episodic motor discoordination with injury risk  
-3) Severe anxiety/irritability during flares; panic physiology  
-4) Autonomic surges with blood pressure spikes  
-5) Non-restorative sleep and daytime fatigue  
-6) Stress-linked fasting glucose elevation (metformin ineffective)  
-7) Multiple medication intolerances (see cautions)
-
-## Key Positives
-- Clear stress reactivity pattern with autonomic features (adrenergic + histaminergic signatures).
-- Beneficial agent pattern: α2-agonism, H1/H2 antagonism, endocrine re-equilibration, methylation support, ATP buffering, sedating 5-HT2A/CB1 modulation.
-
-## Key Negatives / Intolerances
-- Opioids (incl. tramadol): very bad reactions.
-- Gabapentin: severe personality change.
-- SSRIs/SNRIs (lexapro, fluoxetine, venlafaxine, duloxetine), bupropion, lithium, benzos (Xanax), depakote, lamotrigine: paradoxical/behavioral activation or poor tolerability.
-- Common antihypertensives poorly tolerated (lisinopril, metoprolol, amlodipine).
-
-## Current Helpful Agents (with mechanistic rationale)
-- Testosterone ± anastrozole — endocrine/anabolic support; improves drive/energy; may steady cortisol/glucose balance.  
-- Clonidine — central α2 agonism; blunts sympathetic surges → fewer BP spikes/anxiety.  
-- Hydroxyzine, Famotidine, DAO enzymes — histamine axis control; improved sleep/anxiety.  
-- Quetiapine (Seroquel) — sedating 5-HT2A/H1 block; restores sleep architecture, reduces rumination.  
-- Creatine, HMB — energy buffering/anti-catabolic; improve resilience/coordination.  
-- Methylated B-complex, SAMe — monoamine synthesis/methylation support; improve clarity/mood.  
-- CBD/THC — CB1/CB2 modulation; anxiolysis/analgesia/sedation (CBD-dominant daytime).
-
-*(See `docs/medication_effects.md` for table and `docs/mechanistic_map.md` for pathways.)*
-
-## Testing/Workup Considerations
-- Autonomic: seated/standing BP/HR logs during episodes; consider ambulatory BP or HRV snapshot.  
-- Endocrine/Metabolic: fasting glucose/insulin/C-peptide around flares; AM cortisol if clinically indicated.  
-- Sleep: screen for insomnia/sleep fragmentation; consider actigraphy if symptoms persist.  
-- Histamine/Mast-cell phenotype: correlate diet/symptoms; trial documentation with DAO/H1/H2 timing.
-
-## Requests for Next Clinician Visit
-- Review contraindicated agents and adverse reactions; record as formal cautions.  
-- Discuss clonidine titration/PRN protocol for stress surges.  
-- Evaluate testosterone/estradiol targets and anastrozole dose to avoid low-E2.  
-- Align sleep plan (hydroxyzine vs quetiapine minimal effective dose; CBD/THC timing).  
-- Consider metabolic follow-up plan given metformin nonresponse (stress/HPA predominant).
-
-## Attachments / References
-- Symptom Log (`docs/symptom_log.md`)  
-- Medication Effects (`docs/medication_effects.md`)  
-- Mechanistic Map (`docs/mechanistic_map.md`)  
-- Timeline (`docs/timeline.md`)
-
-
-### Exacerbants
-Episodes reliably triggered by **high-histamine foods** or **excess folate**, producing identical symptom clusters to stress-induced flares.  
-Findings consistent with **mast-cell activation overlap**; responsive to **H1/H2 blockade** and **DAO enzyme support**.
-
-### Genetics (summary)
-Clearance pattern consistent with **COMT-Met**, **UGT1A1*28 tag**, **CYP3A4*22/CYP3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors **estrogen/catechol persistence**. See `docs/genetic_findings.md`.
-
-### Genetics — practical implications (summary)
-- **Slower estrogen clearance** likely (CYP3A4*22 ± CYP3A5*3), compounded by **reduced Phase II** (UGT1A1*28, SULT1E1 var) → sensitive to **E2 accumulation**; keep free E2 in lower-physiologic range; monitor SHBG.
-- **COMT Val158Met** → lower catechol methylation capacity during stress; aligns with adrenergic/hyperarousal amplification.
-- **Management hooks:** gentle aromatase control; avoid high histamine/folate spikes; leverage creatine (methylation-sparing) strategy; use clonidine/H1/H2/DAO per clinical judgment.
-
+> **Purpose:** Concise, clinician-facing overview of a complex stress-linked neuroimmune / autonomic / metabolic phenotype with MCAS-like features, endocrine clearance issues, and marked medication sensitivities. All names and dates are de-identified.
 
 ---
 
-## Genetics
-Variants indicate **slower estrogen clearance** (CYP3A4*22 ± CYP3A5*3) and **reduced Phase II conjugation** (UGT1A1*28, SULT1E1 var) with **COMT Val158Met** influencing catechol handling.  
-See `docs/genetics.md` for tables and interpretation.
+## 1. Patient Context
 
-Genetics (summary)
-:  Clearance pattern consistent with **COMT-Met**, **UGT1A1*28**, **CYP3A4*22/3A5*3**, **SULT1E1** variants, and **SHBG↑** alleles → favors estrogen/catechol persistence.  
-  *Implication:* gentle aromatase control, avoid large folate spikes, maintain methyl-sparing (creatine) & methyl-B support; use sympatholysis per clinical judgment. See `docs/genetic_findings.md`.
+- Adult, assigned male at birth; formal diagnosis of **Autism Spectrum Disorder (ASD)**.
+- Right-hand dominant; STEM / systems-engineering background; high health-literacy and data tracking.
+- Key chronic issues:
+  - Recurrent **stress-linked episodes** with multi-system involvement.
+  - **Marked medication intolerance**, particularly to serotonergic and CNS-active agents.
+  - **Endocrine / metabolic lability** (glucose, BP, sleep).
+  - **MCAS-like symptom pattern** with histamine and folate sensitivity.
 
-**Labs note:** See  for mitochondrial/B6 interpretation.
+---
 
-**See separate _Genetics Appendix_ PDF** for detailed variants, effects, and references.
+## 2. Core Phenotype (High-Level Summary)
 
-### Neurodevelopmental Context — Autism Spectrum Disorder (ASD)
+The patient experiences **recurrent episodes** (autonomic / histamine flares) characterized by:
 
-The patient carries a formal diagnosis of **Autism Spectrum Disorder (ASD)**. This is relevant for:
+- **Neurocognitive:** acute degradation of working memory and executive function, slowed processing, word-finding difficulty, and post-episode amnesia for portions of the event.
+- **Autonomic / cardiovascular:** paroxysmal **BP elevation**, tachycardia, presyncope, loss of coordination, falls, and a subjective sense of “runaway” adrenaline with impaired top-down control.
+- **Metabolic:** stress-linked hyperglycemia; **headache if fasting glucose < ~110 mg/dL**; non-restorative sleep preceding episodes.
+- **Neuroimmune / MCAS-like:** migraine, photophobia, edema (e.g., post-operative foot swelling), sensory hypersensitivity, and reproducible flares with **high-histamine foods** or **excess folate**.
+- **Affective / behavioral:** agitation, irritability, emotional lability, and “out-of-character” behavior during peaks, with insight and remorse returning after recovery.
 
-- **Autonomic regulation:** autistic adults often show elevated sympathetic tone and reduced vagal flexibility, consistent with the documented episodic adrenergic surges and slow recovery.
-- **Interoception and sensory gain:** differences in internal signal processing can amplify perceived stress without implying primary psychiatric etiology.
-- **Medication sensitivity:** atypical or paradoxical responses to CNS-active medications are common in ASD and align with this patient’s history of severe adverse reactions.
+Episodes are reliably **stress-triggered** (psychological or physiological) and often **amplified by histamine load and sleep deficit**. Recovery can take days to weeks, with incomplete cognitive restitution after severe flares.
 
-This context should be considered when interpreting autonomic, metabolic, and behavioral data across episodes.
+---
+
+## 3. Episodic Pattern & Objective Tracking
+
+**Pattern (self-reported and supported by logs):**
+
+1. **Prodrome:** poor sleep, mounting stress, rising BG and BP, escalating agitation/sensory gain.
+2. **Peak:** adrenergic “storm” (subjective loss of steering), cognitive disorganization, injury risk, and multi-system symptoms (neuro, autonomic, metabolic, MCAS-like).
+3. **Recovery:** prolonged fatigue, cognitive “crash,” sleep dysregulation, and worsened baseline functioning for days–weeks.
+
+**Objective data available in repo (CSV + Markdown summaries):**
+
+- `data/tracking/bp_hr.csv` → BP/HR episodes, triggers, and response to interventions.  
+  - Summary: `data/analytics/bp_hr_summary.md`.
+- `data/tracking/glucose.csv` → fasting / post-prandial glucose vs histamine/folate load, stress markers, and sleep deficit.  
+  - Summary: `data/analytics/glucose_summary.md`.
+- `data/tracking/sleep.csv` → sleep duration/fragmentation vs next-day BP/BG and symptom severity.  
+  - Summary: `data/analytics/sleep_summary.md`.
+- `data/tracking/med_response.csv` → structured time-stamped medication trials and side-effects.  
+  - Summary: `data/analytics/med_response_summary.md`.
+
+> The **clinician handout PDF** (generated from the repo) includes the brief, checklist, and analytic summaries in 2 pages.
+
+---
+
+## 4. Neuroimmune / MCAS Axis
+
+Features strongly suggest a **mast-cell / histamine-amplified** physiology:
+
+- **Triggers:**
+  - High-histamine foods → reproducible replication of full flare profile.
+  - **Excess folate** → similar cascades.
+  - Psychological / physiologic stress → similar but often stronger episodes.
+- **Symptom clusters during flares:**
+  - Migraine, photophobia, sensory hyperacusis.
+  - Peripheral edema (e.g., surgical foot).
+  - Insomnia / fragmented sleep with nocturnal hyperarousal.
+  - Cognitive fog and fatigue the following day.
+- **Responses:**
+  - **Hydroxyzine (H1)** → improved sleep continuity, reduced sensory gain.
+  - **Famotidine (H2)** → fewer nocturnal awakenings, smoother BP/HR.
+  - **DAO enzyme** → decreased food-triggered flares when taken with high-histamine meals.
+
+Relevant documents:
+
+- `docs/mechanisms.md` — histamine, MCAS axis, and folate interaction.  
+- `docs/mechanisms_neuroimmune.md` — stress–mast-cell–adrenergic–metabolic loop.  
+- `docs/mitochondrial_findings.md` — lab-based mitochondrial/PLP context.
+
+---
+
+## 5. Endocrine / Genetics / Neurodevelopmental Context
+
+### 5.1 Estrogen Metabolism & Clearance
+
+Genetic findings (see **Genetics Appendix PDF** + `docs/genotype_phenotype_map.md`):
+
+- **COMT rs4680 (Val158Met)** → reduced catechol methylation; slower clearance of catecholamines and catechol estrogens.
+- **CYP3A4*22** + **CYP3A5*3** → decreased hepatic estradiol clearance.
+- **UGT1A1*28 tag** → reduced glucuronidation, impacting estrogen metabolites and bilirubin.
+- **SULT1E1 / SULT2A1 variants** → altered sulfation of estrogens and DHEA.
+- **SHBG-increasing alleles** → higher SHBG, lower free T/E2, with sensitivity to relatively small changes.
+
+Clinical correlation:
+
+- Clear symptomatic sensitivity when estradiol rises above the patient’s narrow tolerated band.  
+- Requires **careful anastrozole titration** to maintain a physiologic T:E2 ratio with stable mood and metabolic profile.
+
+### 5.2 ASD and Autonomic / Stress Physiology
+
+Formal **ASD diagnosis** is relevant because:
+
+- Autistic adults commonly show **elevated baseline sympathetic tone** and reduced vagal flexibility.
+- Interoceptive processing differences can **amplify physiologic stress responses** without implying a primary psychiatric etiology.
+- Medication sensitivities and paradoxical CNS responses are more common in ASD and match this patient’s history.
+
+The ASD context helps explain:
+
+- The “runaway adrenaline with no steering” episodes (autonomic inertia).  
+- The combination of high catecholamine reactivity with **COMT Met** and impaired estrogen clearance.
+- A tight coupling between social/psychological stressors, neuroimmune activation, and metabolic derangement.
+
+---
+
+## 6. Mitochondrial / Nutrient Findings
+
+Prior labs (see `docs/mitochondrial_findings.md`) have shown:
+
+- **“Alcoholic pattern” AST/ALT profile** despite minimal/no alcohol use, interpreted as suggesting **mitochondrial stress** rather than primary alcoholic injury.
+- Evidence of **functional vitamin B6 (PLP) insufficiency** on at least one set of labs.
+
+Interpretation:
+
+- Under adrenergic and histamine load, mitochondrial bottlenecks may force increased glycolytic reliance and lower fatigue threshold.
+- PLP-dependent neurotransmitter and amino-acid pathways may be more vulnerable during stress, contributing to the cognitive/mood instability observed.
+
+---
+
+## 7. Medication Response Pattern (Abbreviated)
+
+See `docs/medication_effects.md` and `docs/mechanistic_map.md` for full tables.
+
+### 7.1 Helpful / Beneficial Agents (non-exhaustive)
+
+- **Clonidine** (central α2 agonist): reliably attenuates adrenergic surges, stabilizes BP, and reduces hyperarousal.
+- **Hydroxyzine / Famotidine / DAO**: improve sleep continuity and reduce histamine-triggered flares.
+- **Testosterone + Anastrozole**: when carefully titrated, support mood, energy, and glucose handling within a narrow E2 window.
+- **Creatine, methylated B-complex, SAMe (cautious use), probiotics, HMB**: support energy and methylation balance; creatine helps reduce methylation burden, which may improve histamine handling.
+- **CBN/CBD/THC (low-dose, targeted)**: used selectively for sleep and pain without the destabilization seen with serotonergic agents.
+
+### 7.2 Adverse / Poorly Tolerated Agents
+
+Markedly abnormal reactions to:
+
+- **SSRIs/SNRIs and related:** escitalopram, fluoxetine, venlafaxine, duloxetine, bupropion — behavioral disinhibition, severe agitation, or non-baseline behavior.
+- **Mood stabilizers / anticonvulsants:** lithium, valproate, lamotrigine, gabapentin — cognitive blunting, personality change, or paradoxical mood effects.
+- **Cardiovascular meds:** lisinopril, metoprolol, amlodipine, spironolactone — poor tolerability or paradoxical symptom exacerbation.
+- **Opioids (including tramadol):** very bad reactions; avoided.
+
+These patterns support a **non-psychiatric primary etiology** with extreme pharmacodynamic sensitivity rather than a straightforward mood-/anxiety-disorder framework.
+
+---
+
+## 8. What the Patient is Asking You To Help With
+
+1. **Diagnostic clarification** along the following axes (without forcing a single label):
+   - MCAS / histamine-driven mast-cell activation.
+   - Autonomic dysregulation / adrenergic hyperresponsiveness.
+   - Endocrine clearance / estrogen-handling phenotype.
+   - Stress-linked metabolic dysregulation and mitochondrial stress.
+   - How ASD and genotype interact with the above.
+
+2. **Review of existing objective data** (BP/HR, glucose, sleep, medication response, and genetics) to determine:
+   - Whether the pattern is sufficiently coherent and reproducible for a **formal case study**, and
+   - Which additional tests (imaging, autonomic testing, MCAS workup, endocrine labs) would best strengthen diagnostic confidence.
+
+3. **Collaborative treatment planning**:
+   - Safe optimization of clonidine, histamine axis (H1/H2/DAO), endocrine regimen, and metabolic supports.
+   - Guardrails for any future pharmacologic trials given the history of severe adverse responses.
+
+For navigation, the repo includes:
+
+- `docs/diagnostic_alignment.md` — criteria-aligned summary (MCAS, autonomic, endocrine, metabolic, ASD).  
+- `data/exports/` — full **case study**, **summary**, **clinician handout**, and **genetics appendix** PDFs.  
+- `docs/genotype_phenotype_map.md` — gene → pathway → phenotype mapping.  
+- `docs/mitochondrial_findings.md` — mitochondrial/B6 interpretation.
+
+**Mitochondrial phenotype:**  
+Lifelong exertional intolerance, asymmetric limb involvement, “alcoholic-pattern” liver enzymes without alcohol, and treadmill findings suggest a **mitochondrial / metabolic myopathy** with hepatic involvement.  
+See `docs/mitochondrial_findings.md` and `case_study/mitochondrial_evidence.md` for integrated summary.
