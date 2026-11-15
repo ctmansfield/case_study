@@ -125,3 +125,16 @@ We will progress through these sessions. Each session includes a checklist and e
 
 **Deliverables**
 - Exported files in `data/exports/`.
+
+## 2026-11-15 — scoped context reader adoption
+
+Scope: repository worker intake and context reader tooling, bundle 1.0.0.
+Session targets: `AGENTS.md`; `.codex/WORKFLOW.md`, `READER.md`, `RESUME.md`,
+and `hooks.json`; `tools/context_projection.py`, `context_project.py`, and
+`context_session_hook.py`; matching `tests/test_context*.py`; the synthetic
+`examples/context_projection/` fixture; `context/` initialization, manifest and
+change history; `.github/workflows/context-reader.yml`; `CHANGELOG.md`; this
+session plan and `meta/version_log.md`. Preserve existing document contents.
+Record offline verification in the adoption PR. Context begins UNSEEDED; recover
+the actual assigned instruction before preparing a real task capsule. Verify
+target hook callbacks separately. No release tag is part of this session.
