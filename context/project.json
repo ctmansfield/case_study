@@ -1,0 +1,12 @@
+{
+  "control_url": "https://github.com/ctmansfield/case_study/issues",
+  "policy": {
+    "freshness": "unverified",
+    "url": "https://github.com/ctmansfield/case_study/blob/main/.codex/WORKFLOW.md",
+    "version": "context-v1"
+  },
+  "project": "case_study",
+  "repository": "ctmansfield/case_study",
+  "schema": "context-project",
+  "version": 1
+}
